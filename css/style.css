@@ -22,6 +22,7 @@
             width: 50px;
             height: 60px;
             margin: auto; /* Centrerer containeren horisontalt */
+            padding-bottom: 20px;
         }
         /* Reset for margin/padding */
 
@@ -53,7 +54,7 @@
 /* Styling af menuen */
 .menu {
     display: none; /* Skjul menuen som standard */
-    background-color: #333;
+    background-color: #da7897;
     position: absolute;
     top: 120px; /* Placer menuen nedenfor burgerikonet */
     right: 0;
@@ -84,5 +85,11 @@
 h2 {
     font-family: playfairdisplay;
 }
-        
+header {
+    padding: 30px;
+}
+hr {
+    border-color: #da7897;
+    
+}
 }

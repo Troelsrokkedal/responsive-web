@@ -1,7 +1,95 @@
-body {
-    background: linear-gradient(180deg, #d1fed2, #ffffff) ;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-img {
-    width: 200px;
-    height: 300px;
-    }
+@font-face {
+    font-family: playfairdisplay;
+    src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
+@media screen and (max-width: 480px ) {
+        body {
+            background: linear-gradient(180deg, #ffff99, #ffffff) ;
+        }
+        
+        .forsidelogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 60px;
+            margin: auto; /* Centrerer containeren horisontalt */
+            padding-bottom: 20px;
+        }
+        /* Reset for margin/padding */
+
+/* Skjul checkboxen */
+.burger-checkbox {
+    display: none;
+}
+
+/* Styling af burgerikonet */
+.burger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    margin: 10px;
+    align-items: right;
+}
+
+.line {
+    height: 3px;
+    background-color: #da7897; /* Farve på linjerne */
+    margin: 5px 0;
+    border-radius: 2px; /* Runding af hjørner */
+}
+
+/* Styling af menuen */
+.menu {
+    display: none; /* Skjul menuen som standard */
+    background-color: #da7897;
+    position: absolute;
+    top: 120px; /* Placer menuen nedenfor burgerikonet */
+    right: 0;
+    width: 100%;
+    text-align: left;
+    font-family: playfairdisplay;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    padding: 15px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+/* Vis menuen, når checkboxen er markeret */
+.burger-checkbox:checked + .burger + .menu {
+    display: block;
+}
+h2 {
+    font-family: playfairdisplay;
+}
+header {
+    padding: 30px;
+}
+hr {
+    border-color: #da7897;
+    
+}
+}
