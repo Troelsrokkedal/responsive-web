@@ -35,6 +35,9 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     width: 30px;
     margin: 10px;
     align-items: right;
@@ -53,6 +56,7 @@
     background-color: #333;
     position: absolute;
     top: 120px; /* Placer menuen nedenfor burgerikonet */
+    right: 0;
     width: 100%;
     text-align: left;
     font-family: playfairdisplay;
