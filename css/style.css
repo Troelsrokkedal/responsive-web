@@ -24,11 +24,6 @@
             margin: auto; /* Centrerer containeren horisontalt */
         }
         /* Reset for margin/padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Skjul checkboxen */
 .burger-checkbox {
