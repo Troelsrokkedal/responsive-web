@@ -49,7 +49,7 @@
     height: 3px;
     background-color: #da7897; /* Farve på linjerne */
     margin: 5px 0;
-    border-radius: 2px; /* Runding af hjørner */'
+    border-radius: 2px; /* Runding af hjørner */
 }
 
 /* Styling af menuen */
@@ -81,6 +81,9 @@
 /* Vis menuen, når checkboxen er markeret */
 .burger-checkbox:checked + .burger + .menu {
     display: block;
+}
+h2 {
+    font-family: playfairdisplay;
 }
         
 }
