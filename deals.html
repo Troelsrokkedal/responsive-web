@@ -28,7 +28,27 @@
     </header>
 
     <main>
-      
+        <div class="container">
+            <div class="input-section">
+                <label for="amount">Indtast beløb</label>
+                <div class="amount-input">
+                    <span>100 kr.</span>
+                    <input type="number" id="amount" min="100" max="3000" placeholder="Beløb">
+                    <span>3000 kr.</span>
+                </div>
+            </div>
+            
+            <div class="quantity-section">
+                <label>Antal</label>
+                <div class="quantity-input">
+                    <button class="minus">-</button>
+                    <input type="number" value="1" min="1">
+                    <button class="plus">+</button>
+                </div>
+            </div>
+            
+            <button class="add-to-cart">Tilføj til kurv</button>
+        </div>
         
     </main>
     
