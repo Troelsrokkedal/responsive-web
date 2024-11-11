@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 
@@ -18,11 +19,7 @@
             height: 60px;
             margin: auto; /* Centrerer containeren horisontalt */
         }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+
         
         /* Styling af burgerikonet */
         .burger {
@@ -33,9 +30,11 @@
         }
         
         .line {
-            height: 3px;
+            height: 2px;
             background-color: #da7897; /* Farvekode for linjerne */
             margin: 5px 0;
             border-radius: 2px; /* Giver en rundet kant til linjerne */
+            width: 30px;
+
         }
 }
