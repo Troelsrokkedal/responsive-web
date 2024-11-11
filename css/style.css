@@ -4,6 +4,10 @@
     box-sizing: border-box;
     
 }
+@font-face {
+    font-family: playfairdisplay;
+    src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
 
 
 @media screen and (max-width: 480px ) {
@@ -19,22 +23,6 @@
             height: 60px;
             margin: auto; /* Centrerer containeren horisontalt */
         }
-
-        /*  .burger {
-            display: flex;
-            flex-direction: column;
-            cursor: pointer;
-            width: 30px; 
-        }
-        
-        .line {
-            height: 2px;
-            background-color: #da7897; 
-            margin: 5px 0;
-            border-radius: 2px; 
-            width: 30px;
-
-        } */
         /* Reset for margin/padding */
 * {
     margin: 0;
@@ -54,13 +42,14 @@
     cursor: pointer;
     width: 30px;
     margin: 10px;
+    align-items: right;
 }
 
 .line {
     height: 3px;
     background-color: #da7897; /* Farve på linjerne */
     margin: 5px 0;
-    border-radius: 2px; /* Runding af hjørner */
+    border-radius: 2px; /* Runding af hjørner */'
 }
 
 /* Styling af menuen */
@@ -68,9 +57,10 @@
     display: none; /* Skjul menuen som standard */
     background-color: #333;
     position: absolute;
-    top: 50px; /* Placer menuen nedenfor burgerikonet */
+    top: 120px; /* Placer menuen nedenfor burgerikonet */
     width: 100%;
-    text-align: center;
+    text-align: left;
+    font-family: playfairdisplay;
 }
 
 .menu ul {
