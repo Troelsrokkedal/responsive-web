@@ -109,8 +109,8 @@ h2 {
 .bowl {
     border-radius: 44px;
     position: absolute;
-    top: 1rem;
-    left: 15rem;
+    top: 5.33%;
+    left: 80%;
     width: 65%; /* Får dem til at fylde hele containeren */
     height: 100%;
     z-index: 1;
@@ -120,8 +120,8 @@ h2 {
 .bolle {
     border-radius: 44px;
     position: absolute;
-    top: 12rem;
-    left: 10rem;
+    top: 64%;
+    left: 53.33%;
     width: 40%; /* Får dem til at fylde hele containeren */
     height: 60%;
     z-index: 3;
@@ -132,8 +132,8 @@ h2 {
     border-radius: 44px;
     border-color: #da7897;
     position: absolute;
-    top: 1rem;
-    right: 5rem ;
+    top: 5.33%;
+    right: 26.67%;
     width: 60%; /* Får dem til at fylde hele containeren */
     height: 80%;
     z-index: 2;
@@ -151,8 +151,8 @@ h2 {
     border-radius: 20px;
     width: 6.5rem;
     padding: 10px 20px;
-    top: 21rem;
-    left: 20rem;
+    top: 112%;
+    left: 106.67%;
     z-index: 4;
     position: absolute;
     border: none;
