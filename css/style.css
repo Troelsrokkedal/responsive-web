@@ -239,7 +239,7 @@ h2 {
     left: 2rem;
     z-index: 4;
     position: absolute;
-    border: none;
+    border: #E65885;
 }
 .lokationh2 {
     padding-top: 8rem;
