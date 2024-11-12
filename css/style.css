@@ -108,24 +108,34 @@ h2 {
     padding-right: 3rem;
 }
 .bowl {
-    width: 9rem;
-    height: 14rem;
     border-radius: 44px;
     position: absolute;
+    top: 1rem;
+    left: 15rem;
+    width: 65%; /* Får dem til at fylde hele containeren */
+    height: 100%;
+    z-index: 1;
     
 }
 .bolle {
-    width: 9rem;
-    height: 14rem;
     border-radius: 44px;
     position: absolute;
+    top: 12rem;
+    left: 10rem;
+    width: 40%; /* Får dem til at fylde hele containeren */
+    height: 60%;
+    z-index: 3;
+   
 }
 .avocado {
-    width: 9rem;
-    height: 14rem;
     border-radius: 44px;
     border-color: #da7897;
     position: absolute;
+    top: 1rem;
+    right: 5rem ;
+    width: 60%; /* Får dem til at fylde hele containeren */
+    height: 80%;
+    z-index: 2;
 }
 .imagesfrontmenu {
     position: relative;
@@ -133,4 +143,8 @@ h2 {
     height: 300px;
 
 }
+.eventsh2{
+    padding-top: 5rem;
+}
+
 }
