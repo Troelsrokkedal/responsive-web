@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 391px ) {
         body {
             background: linear-gradient(180deg, #e6e6fa, #ffffff) ;
         }

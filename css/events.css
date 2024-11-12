@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 391px ) {
         body {
             background: linear-gradient(180deg, #d0fcff, #ffffff) ;
         }
@@ -91,5 +91,174 @@ header {
 hr {
     border-color: #da7897;
     
+}
+.infotext {
+
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: playfairdisplay;
+    padding-bottom: 1rem;
+}
+.runimages {
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.run{
+    border-radius: 34px;
+    position: absolute;
+    top: 35.33%;
+    left: 71%;
+    width: 64%;
+    height: 68%;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.run2 {
+    border-radius: 34px;
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    width: 69%;
+    height: 71%;
+    z-index: 1;
+    object-fit: cover;
+}
+.runhr {
+    margin-top: 4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.kreah2{
+    padding-top: 2rem;
+}
+
+.kreatext {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.kreaimages {
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.smykker{
+    border-radius: 34px;
+    position: absolute;
+    top: -3.67%;
+    left: 42%;
+    width: 43%;
+    height: 81%;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.keramik {
+    border-radius: 34px;
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    width: 41%;
+    height: 67%;
+    z-index: 1;
+    object-fit: cover;
+}
+.strik {
+    border-radius: 34px;
+    position: absolute;
+    top: 43%;
+    left: 69%;
+    width: 66%;
+    height: 66%;
+    z-index: 3;
+    object-fit: cover;
+} 
+.majhr {
+    margin-top: 4rem;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.majh2 {
+    padding-top: 2rem;
+}
+.majtext {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.majmedia {
+    position: relative;
+    width: 275px;
+    height: 275px;
+}
+.oel{
+    border-radius: 34px;
+    position: absolute;
+    top: 37.33%;
+    left: 81%;
+    width: 50%;
+    height: 81%;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.majmarked {
+    border-radius: 34px;
+    position: absolute;
+    top: -1%;
+    left: 24%;
+    width: 103%;
+    height: 54%;
+    z-index: 3;
+    object-fit: cover;
+}
+.torvvideo {
+    border-radius: 34px;
+    position: absolute;
+    top: 43%;
+    left: 4%;
+    width: 80%;
+    height: 80%;
+    z-index: 1;
+    object-fit: cover;
+}
+.footerhr {
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+.instagramlogo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+
+}
+.facebooklogo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.logoer{
+    display: flex;
+    justify-content: center;
+}
+
+.footerinfo{
+    text-align: center;
+    padding-top: 5px;
 }
 }
