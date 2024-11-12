@@ -211,4 +211,113 @@ section {
     z-index: 1;
     object-fit: cover;
  }
+
+ .drikkevarerhr{
+    margin-top: 8rem;
+    margin-right: 30px;
+    margin-left: 30px;
+ }
+
+ .drikkevarerh3{
+    padding-top: 2rem;
+ }
+
+ .drikkevarerbilleder{
+    position: relative;
+    width: 275px;
+    height: 275px;
+ }
+
+ .drinks{
+    border-radius: 44px;
+    position: absolute;
+    top: 52.33%;
+    right: 14.67%;
+    width: 56%;
+    height: 53%;
+    z-index: 3;
+    object-fit: cover;
+ }
+
+ .juice{
+    border-radius: 44px;
+    position: absolute;
+    top: 8.33%;
+    right: -3.33%;
+    width: 74%;
+    height: 53%;
+    z-index: 1;
+    object-fit: cover;
+ }
+
+ .kaffe{
+    border-radius: 44px;
+    position: absolute;
+    top: 17.33%;
+    right: 44.67%;
+    width: 49%;
+    height: 66%;
+    z-index: 2;
+    object-fit: cover;
+ }
+
+ .kakao{
+    border-radius: 44px;
+    position: absolute;
+    top: 55.33%;
+    right: -35.33%;
+    width: 60%;
+    height: 70%;
+    z-index: 4;
+    object-fit: cover;
+ }
+
+ .spritz{
+    border-radius: 44px;
+    position: absolute;
+    top: 78.33%;
+    right: 51.67%;
+    width: 44%;
+    height: 59%;
+    z-index: 5;
+    object-fit: cover;
+ }
+
+ .vin{
+    border-radius: 44px;
+    position: absolute;
+    top: 13.33%;
+    right: -35.33%;
+    width: 40%;
+    height: 49%;
+    z-index: 6;
+    object-fit: cover;
+ }
+ 
+ .footerhr {
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+.instagramlogo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+
+}
+.facebooklogo {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.logoer{
+    display: flex;
+    justify-content: center;
+}
+
+.footerinfo{
+    text-align: center;
+    padding-top: 5px;
+}
 }
