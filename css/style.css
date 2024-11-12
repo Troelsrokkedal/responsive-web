@@ -363,4 +363,9 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.footerinfo{
+    text-align: center;
+    padding-top: 5px;
+}
 }
