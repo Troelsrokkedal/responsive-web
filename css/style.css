@@ -156,6 +156,7 @@ h2 {
     z-index: 4;
     position: absolute;
     border: none;
+    box-shadow: 2px 2px 4px 0px grey;
 }
 .menukortlink {
     text-decoration: none;
@@ -239,7 +240,9 @@ h2 {
     left: 2rem;
     z-index: 4;
     position: absolute;
-    border: #E65885;
+    box-shadow: 2px 2px 4px 0px grey;
+    border: none;
+    
 }
 .lokationh2 {
     padding-top: 8rem;
@@ -285,6 +288,7 @@ h2 {
     z-index: 4;
     position: absolute;
     border: none;
+    box-shadow: 2px 2px 4px 0px grey;
 }
 
 .lokationlink {
