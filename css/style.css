@@ -267,8 +267,8 @@ h2 {
 .lokationimg {
     border-radius: 44px;
     position: absolute;
-    top: 1rem;
-    left: 10rem;
+    top: 7rem;
+    left: 6rem;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -280,8 +280,8 @@ h2 {
     border-radius: 20px;
     width: 6.5rem;
     padding: 10px 20px;
-    top: 16.5rem;
-    left: 2rem;
+    top: 10%;
+    left: 65%;
     z-index: 4;
     position: absolute;
     border: none;
