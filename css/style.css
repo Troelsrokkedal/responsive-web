@@ -186,29 +186,29 @@ h2 {
 
 .eventimg{
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     
 }
 
 .run{
-    border-radius: 44px;
+    border-radius: 34px;
     position: absolute;
-    top: 1rem;
-    left: 15rem;
-    width: 55%; /* Får dem til at fylde hele containeren */
-    height: 100%;
+    top: 5.33%;
+    left: 80%;
+    width: 45%; /* Får dem til at fylde hele containeren */
+    height: 90%;
     z-index: 1;
     object-fit: cover;
 }
 
 .keramik {
-    border-radius: 44px;
+    border-radius: 34px;
     position: absolute;
-    top: 12rem;
-    left: 12rem;
-    width: 50%; /* Får dem til at fylde hele containeren */
-    height: 60%;
+    top: 64%;
+    left: 64%;
+    width: 40%; /* Får dem til at fylde hele containeren */
+    height: 50%;
     z-index: 3;
     object-fit: cover;
    
@@ -217,10 +217,10 @@ h2 {
     border-radius: 44px;
     border-color: #da7897;
     position: absolute;
-    top: 1rem;
-    right: 4rem ;
-    width: 60%; /* Får dem til at fylde hele containeren */
-    height: 80%;
+    top: 5.33%;
+    right: 21.33%;
+    width: 50%; /* Får dem til at fylde hele containeren */
+    height: 70%;
     z-index: 2;
     object-fit: cover;
 }
@@ -237,8 +237,8 @@ h2 {
     border-radius: 20px;
     width: 6.5rem;
     padding: 10px 20px;
-    top: 21rem;
-    left: 2rem;
+    top: 100%;
+    left: 10.66%;
     z-index: 4;
     position: absolute;
     box-shadow: 2px 2px 4px 0px grey;
@@ -264,17 +264,17 @@ h2 {
 
 .lokationbox {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
 }
 
 .lokationimg {
     border-radius: 44px;
     position: absolute;
-    top: 7rem;
-    left: 6rem;
-    width: 100%;
-    height: 100%;
+    top: 37.33%;
+    left: 26%;
+    width: 90%;
+    height: 90%;
     z-index: 1;
     object-fit: cover;
     
@@ -286,7 +286,7 @@ h2 {
     width: 6.5rem;
     padding: 10px 20px;
     top: 10%;
-    left: 65%;
+    left: 50%;
     z-index: 4;
     position: absolute;
     border: none;
