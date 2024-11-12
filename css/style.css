@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 414px ) {
     * {
         font-family: playfairdisplay;
     }
@@ -110,7 +110,7 @@ h2 {
     border-radius: 44px;
     position: absolute;
     top: 5.33%;
-    left: 80%;
+    left: 70%;
     width: 65%; /* Får dem til at fylde hele containeren */
     height: 100%;
     z-index: 1;
@@ -121,7 +121,7 @@ h2 {
     border-radius: 44px;
     position: absolute;
     top: 64%;
-    left: 53.33%;
+    left: 43.33%;
     width: 40%; /* Får dem til at fylde hele containeren */
     height: 60%;
     z-index: 3;
@@ -133,7 +133,7 @@ h2 {
     border-color: #da7897;
     position: absolute;
     top: 5.33%;
-    right: 26.67%;
+    right: 36.67%;
     width: 60%; /* Får dem til at fylde hele containeren */
     height: 80%;
     z-index: 2;
@@ -143,7 +143,6 @@ h2 {
     position: relative;
     width: 300px;
     height: 300px;
-    max-width: 100%;
 
 }
 
@@ -153,7 +152,7 @@ h2 {
     width: 6.5rem;
     padding: 10px 20px;
     top: 112%;
-    left: 106.67%;
+    left: 96.67%;
     z-index: 4;
     position: absolute;
     border: none;
@@ -189,7 +188,7 @@ h2 {
     position: relative;
     width: 300px;
     height: 300px;
-    max-width: 100%;
+    
 }
 
 .run{
@@ -278,7 +277,7 @@ h2 {
     height: 100%;
     z-index: 1;
     object-fit: cover;
-    max-width: 100%;
+    
 }
 
 .lokationbutton {
