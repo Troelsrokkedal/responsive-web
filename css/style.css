@@ -101,10 +101,11 @@ h2 {
 }
 .infotext {
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
     line-height: 1.8rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    
 }
 .bowl {
     border-radius: 44px;
@@ -141,8 +142,8 @@ h2 {
 }
 .imagesfrontmenu {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
 
 }
 
