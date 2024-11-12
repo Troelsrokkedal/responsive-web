@@ -11,6 +11,9 @@
 
 
 @media screen and (max-width: 480px ) {
+    * {
+        font-family: playfairdisplay;
+    }
         body {
             background: linear-gradient(180deg, #ffff99, #ffffff) ;
         }
@@ -82,9 +85,7 @@
 .burger-checkbox:checked + .burger + .menu {
     display: block;
 }
-h2 {
-    font-family: playfairdisplay;
-}
+
 header {
     padding: 30px;
 }
@@ -96,11 +97,40 @@ hr {
 h2 {
     text-align: center;
     font-size: 1.2rem;
+    font-family: playfairdisplay;
+    padding-bottom: 1rem;
 }
 .infotext {
     font-size: 1rem;
     text-align: center;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.bowl {
+    width: 9rem;
+    height: 14rem;
+    border-radius: 44px;
+    position: absolute;
+    
+}
+.bolle {
+    width: 9rem;
+    height: 14rem;
+    border-radius: 44px;
+    position: absolute;
+}
+.avocado {
+    width: 9rem;
+    height: 14rem;
+    border-radius: 44px;
+    border-color: #da7897;
+    position: absolute;
+}
+.imagesfrontmenu {
+    position: relative;
+    width: 300px;
+    height: 300px;
 
 }
-
 }
