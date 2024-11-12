@@ -10,7 +10,7 @@
 <body>
     <header>
         
-        <img class="forsidelogo" src="image/forsidelogo.webp" alt="logo">
+        <a href="index.html"><img class="forsidelogo" src="image/forsidelogo.webp" alt="logo"></a>
         
         <input type="checkbox" id="burger-toggle" class="burger-checkbox">
 
@@ -34,17 +34,17 @@
         <hr>
     </header>
     <main>
-        <section class="">
+        <section class="menumenu">
         <h2><a href="#morgenmad">Morgenmad</a></h2>
         <h2><a href="#frokost">Frokost</a></h2>
         <h2><a href="#drikkevarer">Drikkevarer</a></h2>
         </section>
-    
+    <hr class="morgenhr">
         <section>
-            <h3 id="morgenmad">Morgenmad</h3>
+            <h3 id="morgenmad" class="morgenmad">Morgenmad</h3>
         
-                <h4>Det søde</h4>
-                    <ul>
+                <h4 class="morgenmenu">Det søde</h4>
+                    <ul class="morgentekst">
                         <li>Kardemommesnurre 32 kr.</li>
                         <li>Limesnegl 32 kr.</li>
                         <li>Croissant 32 kr.</li>
@@ -52,7 +52,7 @@
                     </ul>
 
                 <h4>Morgentilbud 09:00-10:00 60 kr. </h4>
-                <p>Surdejsbolle med øko-smør og ost + valgfri kaffe.</p>
+                <p class="morgentekst">Surdejsbolle med øko-smør og ost + valgfri kaffe.</p>
 
                 <h4>Surdejsbolle 38 kr.</h4>
                 <p>Øko smør og ost.</p>
@@ -71,10 +71,12 @@
 
                 <h4>Grøn Smoothie Bowl 85 kr.</h4>
                 <p>Banan, mango, spinat, ananas, havredrik, granola, kokosflager, dadelkaramel, bær og frugt.</p>
-
-                <img src="image/morgenmad.bolle.snurre.webp" alt="bolle og snurre">
-                <img src="image/morgenmad.bowl.webp" alt="bowl">
-                <img src="image/morgenmad.snurre.webp" alt="snurre">
+                <section class="morgenbilleder">
+                    <img class="bollesnurre" src="image/morgenmad.bolle.snurre.webp" alt="bolle og snurre">
+                    <img class="bowl" src="image/morgenmad.bowl.webp" alt="bowl">
+                    <img class="snurre" src="image/morgenmad.snurre.webp" alt="snurre">
+                </section>    
+               
         </section>
         <section>
             <h3 id="frokost">Frokost</h3>
