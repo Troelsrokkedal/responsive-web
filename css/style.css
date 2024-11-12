@@ -146,5 +146,21 @@ h2 {
 .eventsh2{
     padding-top: 5rem;
 }
-
+.menubutton {
+    background-color: #da7897;
+    border-radius: 20px;
+    width: 6.5rem;
+    padding: 10px 20px;
+    top: 21rem;
+    left: 20rem;
+    z-index: 4;
+    position: absolute;
+    border: none;
+}
+.menukortlink {
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+}
 }
