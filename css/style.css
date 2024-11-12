@@ -91,7 +91,6 @@ header {
 }
 hr {
     border-color: #da7897;
-    
 }
 
 h2 {
@@ -115,6 +114,7 @@ h2 {
     width: 65%; /* Får dem til at fylde hele containeren */
     height: 100%;
     z-index: 1;
+    object-fit: cover;
     
 }
 .bolle {
@@ -125,6 +125,7 @@ h2 {
     width: 40%; /* Får dem til at fylde hele containeren */
     height: 60%;
     z-index: 3;
+    object-fit: cover;
    
 }
 .avocado {
@@ -136,6 +137,7 @@ h2 {
     width: 60%; /* Får dem til at fylde hele containeren */
     height: 80%;
     z-index: 2;
+    object-fit: cover;
 }
 .imagesfrontmenu {
     position: relative;
@@ -143,9 +145,7 @@ h2 {
     height: 300px;
 
 }
-.eventsh2{
-    padding-top: 5rem;
-}
+
 .menubutton {
     background-color: #da7897;
     border-radius: 20px;
@@ -163,4 +163,84 @@ h2 {
     font-family: playfairdisplay;
     font-weight: bold;
 }
+
+.eventshr{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.eventsh2{
+    padding-top: 8rem;
+
+}
+
+.eventstekst{
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.eventimg{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.run{
+    border-radius: 44px;
+    position: absolute;
+    top: 1rem;
+    left: 15rem;
+    width: 55%; /* Får dem til at fylde hele containeren */
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.keramik {
+    border-radius: 44px;
+    position: absolute;
+    top: 12rem;
+    left: 12rem;
+    width: 50%; /* Får dem til at fylde hele containeren */
+    height: 60%;
+    z-index: 3;
+    object-fit: cover;
+   
+}
+.strik {
+    border-radius: 44px;
+    border-color: #da7897;
+    position: absolute;
+    top: 1rem;
+    right: 4rem ;
+    width: 60%; /* Får dem til at fylde hele containeren */
+    height: 80%;
+    z-index: 2;
+    object-fit: cover;
+}
+
+.eventlink{
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+}
+
+.eventbutton{
+    background-color: #da7897;
+    border-radius: 20px;
+    width: 6.5rem;
+    padding: 10px 20px;
+    top: 21rem;
+    left: 2rem;
+    z-index: 4;
+    position: absolute;
+    border: none;
+}
+
+
 }
