@@ -365,4 +365,8 @@ h2 {
     justify-content: center;
 }
 
+.footerinfo{
+    text-align: center;
+    padding-top: 5px;
+}
 }
