@@ -346,4 +346,16 @@ h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.footerhr {
+    margin-bottom: 2rem;
+}
+.instagramlogo {
+    width: 2rem;
+    height: 2rem;
+
+}
+.facebooklogo {
+    width: 2rem;
+    height: 2rem;
+}
 }
