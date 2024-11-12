@@ -163,5 +163,52 @@ section {
     object-fit: cover;
  }
 
- .
+ .frokosthr {
+    margin-top: 8rem;
+    margin-right: 30px;
+    margin-left: 30px;
+ }
+
+ .frokosth3{
+    padding-top: 2rem;
+ }
+
+ .frokostbillede{
+    position: relative;
+    width: 275px;
+    height: 275px;
+ }
+
+ .avocado{
+    border-radius: 44px;
+    position: absolute;
+    top: 20.33%;
+    right: -25.33%;
+    width: 55%;
+    height: 63%;
+    z-index: 2;
+    object-fit: cover;
+ }
+
+ .bord{
+    border-radius: 44px;
+    position: absolute;
+    top: 58.33%;
+    right: 17.67%;
+    width: 60%;
+    height: 80%;
+    z-index: 3;
+    object-fit: cover;
+ }
+
+ .sandwich{
+    border-radius: 44px;
+    position: absolute;
+    top: 15.33%;
+    right: 22.67%;
+    width: 67%;
+    height: 57%;
+    z-index: 1;
+    object-fit: cover;
+ }
 }
