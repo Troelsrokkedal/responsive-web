@@ -84,6 +84,7 @@
 }
 h2 {
     font-family: playfairdisplay;
+    text-align: center;
 }
 header {
     padding: 30px;
@@ -164,23 +165,23 @@ hr {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
-    margin-top: 1rem;
 
 }
 .facebooklogo {
     width: 2rem;
     height: 2rem;
-    margin-top: 1rem;
 }
 
 .logoer{
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .footerinfo{
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 1rem;
 }
 .roundlogo {
     display: none;
@@ -340,15 +341,30 @@ input {
 .footerhr {
     margin-bottom: 2rem;
 }
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left:2rem ;
+}
+
+.socialmediabox {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
 .instagramlogo {
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
     margin-right: 1rem;
+    margin-top: 2rem;
 
 }
 .facebooklogo {
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
 }
 
 .logoer{
@@ -358,13 +374,26 @@ input {
 
 .footerinfo{
     text-align: center;
+    font-size: 1.5rem;
     padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 button {
     font-size: 2rem;
 }
 .pbottom {
     padding-bottom: 2rem;
+}
+.aabningstider {
+display: flex;
+flex-direction: column;
+}
+.kontaktmig {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
 }
 }
 
