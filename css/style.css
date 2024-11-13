@@ -149,20 +149,8 @@ h2 {
 
 }
 
-.menubutton {
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 102%;
-    left: 86.67%;
-    z-index: 4;
-    position: absolute;
-    border: none;
-    box-shadow: 2px 2px 4px 0px grey;
-}
 
-.menubuttondesktop {
+.menukortlinkdesktop {
     display: none;
 }
 
@@ -171,6 +159,15 @@ h2 {
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
+    background-color: #da7897;
+    border-radius: 20px;
+    padding: 10px 20px;
+    top: 102%;
+    left: 86.67%;
+    position: absolute;
+    border: none;
+    box-shadow: 2px 2px 4px 0px grey;
+    text-align: center;
 }
 
 .eventshr{
@@ -238,24 +235,25 @@ h2 {
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
-}
-
-.eventbutton{
     background-color: #da7897;
     border-radius: 20px;
-    width: 6.5rem;
     padding: 10px 20px;
     top: 100%;
     left: 10.66%;
-    z-index: 4;
-    position: absolute;
     box-shadow: 2px 2px 4px 0px grey;
+    position: relative;
     border: none;
+    margin-top: 4rem;
+    text-align: center;
 }
 
-.eventbuttondesktop{
+.eventlinkdesktop{
     display: none;
 }
+
+
+
+
 
 .lokationh2 {
     padding-top: 8rem;
@@ -292,10 +290,9 @@ h2 {
     
 }
 
-.lokationbutton {
+.lokationlink {
     background-color: #da7897;
     border-radius: 20px;
-    width: 6.5rem;
     padding: 10px 20px;
     top: 10%;
     left: 50%;
@@ -303,9 +300,10 @@ h2 {
     position: absolute;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
+    text-align: center;
 }
 
-.lokationbuttondesktop {
+.lokationlinkdesktop {
     display: none;
 }
 
@@ -353,8 +351,8 @@ h2 {
     padding-bottom: 3rem;
 }
 .hatice {
- margin-top: 1rem;
- margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .lotte {
     margin-top: 1rem;
@@ -364,6 +362,10 @@ h2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+
+
+
 .footerhr {
     margin-bottom: 2rem;
 }
@@ -526,23 +528,18 @@ h2 {
 
 }
 
-.menubutton {
+.menukortlink {
     display: none;
 }
-.menukortlink {
+
+.menukortlinkdesktop {
     text-decoration: none;
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: #da7897;
     border-radius: 20px;
-    width: 8.5rem;
     padding: 10px 20px;
     z-index: 4;
     position: relative;
@@ -630,22 +627,15 @@ section.forsideeventstext {
     object-fit: cover;
 }
 
-.eventlink{
+.eventlinkdesktop{
     text-decoration: none;
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: #da7897;
     border-radius: 20px;
-    width: 8.5rem;
     padding: 10px 20px;
-    z-index: 4;
     position: relative;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
@@ -653,7 +643,7 @@ section.forsideeventstext {
     text-align: center;
 }
 
-.eventbutton{
+.eventlink{
     display: none;
 }
 
@@ -710,26 +700,19 @@ section.forsidelokationtext {
     
 }
 
-.lokationbutton {
+.lokationlink {
     display: none;
 }
 
-.lokationlink {
+.lokationlinkdesktop {
     text-decoration: none;
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: #da7897;
     border-radius: 20px;
-    width: 8.5rem;
     padding: 10px 20px;
-    z-index: 4;
     position: relative;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
