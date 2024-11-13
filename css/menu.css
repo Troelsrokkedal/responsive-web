@@ -530,10 +530,18 @@ object-fit: cover;
 margin-top: 8rem;
 margin-right: 30px;
 margin-left: 30px;
+display: none;
 }
 
 .drikkevarerh3{
-padding-top: 2rem;
+padding-top: 5rem;
+font-size: 1.2rem;
+}
+
+.drikkevarerh3hr{
+border: solid 0.1rem #da7897;
+width: 7rem;
+margin-bottom: 0.5rem;
 }
 
 .drikkevarerbilleder{
