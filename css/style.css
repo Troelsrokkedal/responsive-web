@@ -381,15 +381,15 @@ h2 {
         font-family: playfairdisplay;
     }
         body {
-            background: linear-gradient(180deg, #ffff99, #ffffff) ;
+            background: linear-gradient(135deg, #ffff99, #ffffff) ;
         }
         
         .forsidelogo {
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 50px;
-            height: 60px;
+            width: 100px;
+            height: 130px;
             margin: auto; /* Centrerer containeren horisontalt */
             padding-bottom: 10px;
         }
@@ -400,40 +400,11 @@ h2 {
     display: none;
 }
 
-/* Styling af burgerikonet */
-.burger {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 30px;
-    margin: 10px;
-    align-items: right;
-}
-
-.line {
-    height: 3px;
-    background-color: #da7897; /* Farve på linjerne */
-    margin: 5px 0;
-    border-radius: 2px; /* Runding af hjørner */
-}
-
-/* Styling af menuen */
-.menu {
-    display: none; /* Skjul menuen som standard */
-    background-color: #da7897;
-    position: absolute;
-    top: 90px; /* Placer menuen nedenfor burgerikonet */
-    right: 0;
-    width: 100%;
-    text-align: left;
-    font-family: playfairdisplay;
-}
 
 .menu ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu ul li {
@@ -441,10 +412,9 @@ h2 {
 }
 
 .menu ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 18px;
-    display: block;
 }
 
 /* Vis menuen, når checkboxen er markeret */
@@ -459,8 +429,12 @@ hr {
     border-color: #da7897;
 }
 
+.forsidemenu{
+    text-align: left;
+    display: flex;   
+}
 h2 {
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
     font-family: playfairdisplay;
     padding-bottom: 1rem;
