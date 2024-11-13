@@ -319,13 +319,16 @@ section {
     text-align: center;
     padding-top: 5px;
 }
+.roundlogo {
+    display: none;
+}
 }
 
 
 
 @media screen and (min-width: 392px) {
     body {
-        background: linear-gradient(180deg, #d1fed2, #ffffff) ;
+        background: linear-gradient(135deg, #d1fed2, #ffffff) ;
     }
     
     .forsidelogo {
@@ -395,7 +398,7 @@ list-style-type: none;
 }
 
 .morgenmad{
-    margin-bottom: 0.5rem;
+margin-bottom: 0.5rem;
 }
 
 .morgenmadhr {
@@ -408,13 +411,14 @@ text-decoration: none;
 color: black;
 font-family: playfairdisplay;
 font-size: 1.3rem;
+list-style-type: none;
 }
 section {
 text-align: left;
 line-height: 1.8rem;
 padding: 3rem;
-list-style-type: none;
 margin-top: -3rem;
+list-style-type: none;
 }
 
 h4{
@@ -544,19 +548,27 @@ width: 7rem;
 margin-bottom: 0.5rem;
 }
 
+.alkoholdrikke {
+text-align: left;
+line-height: 1.8rem;
+padding-left: 50rem;
+list-style-type: none;
+margin-top: -1rem;  
+}
+
 .drikkevarerbilleder{
 position: relative;
-width: 275px;
-height: 275px;
+width: 200px;
+height: 200px;
 }
 
 .drinks{
 border-radius: 44px;
 position: absolute;
-top: 52.33%;
-right: 14.67%;
-width: 56%;
-height: 53%;
+top: -235.67%;
+right: -38.33%;
+width: 126%;
+height: 123%;
 z-index: 3;
 object-fit: cover;
 }
@@ -564,10 +576,10 @@ object-fit: cover;
 .juice{
 border-radius: 44px;
 position: absolute;
-top: 8.33%;
-right: -3.33%;
-width: 74%;
-height: 53%;
+top: -712.67%;
+right: -515.33%;
+width: 200%;
+height: 170%;
 z-index: 1;
 object-fit: cover;
 }
@@ -575,21 +587,21 @@ object-fit: cover;
 .kaffe{
 border-radius: 44px;
 position: absolute;
-top: 17.33%;
-right: 44.67%;
-width: 49%;
-height: 66%;
-z-index: 2;
+top: -552.67%;
+right: -494.33%;
+width: 175%;
+height: 185%;
+z-index: 4;
 object-fit: cover;
 }
 
 .kakao{
 border-radius: 44px;
 position: absolute;
-top: 55.33%;
-right: -35.33%;
-width: 60%;
-height: 70%;
+top: -631.67%;
+right: -325.33%;
+width: 175%;
+height: 185%;
 z-index: 4;
 object-fit: cover;
 }
@@ -597,10 +609,10 @@ object-fit: cover;
 .spritz{
 border-radius: 44px;
 position: absolute;
-top: 78.33%;
-right: 51.67%;
-width: 44%;
-height: 59%;
+top: -122.67%;
+right: -44.33%;
+width: 124%;
+height: 139%;
 z-index: 5;
 object-fit: cover;
 }
@@ -608,29 +620,43 @@ object-fit: cover;
 .vin{
 border-radius: 44px;
 position: absolute;
-top: 13.33%;
-right: -35.33%;
-width: 40%;
-height: 49%;
+top: -192.67%;
+right: -148.33%;
+width: 120%;
+height: 160%;
 z-index: 6;
 object-fit: cover;
 }
 
 .footerhr {
 margin-bottom: 2rem;
-margin-top: 10rem;
+margin-top: -8rem;
+}
+.footerbox {
+display: flex;
+justify-content: space-between;
+margin-left:2rem ;
+margin-bottom: 2rem;
+}
+
+.socialmediabox {
+display: flex;
+align-content: center;
+flex-direction: column;
+justify-content: center;
+font-size: 1rem;
 }
 .instagramlogo {
-width: 2rem;
-height: 2rem;
+width: 5rem;
+height: 5rem;
 margin-right: 1rem;
-margin-top: 1rem;
+margin-top: 2rem;
 
 }
 .facebooklogo {
-width: 2rem;
-height: 2rem;
-margin-top: 1rem;
+width: 5rem;
+height: 5rem;
+margin-top: 2rem;
 }
 
 .logoer{
@@ -640,6 +666,26 @@ justify-content: center;
 
 .footerinfo{
 text-align: center;
+font-size: 1rem;
 padding-top: 5px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-top: 2rem;
+}
+button {
+    font-size: 2rem;
+}
+.pbottom {
+    padding-bottom: 2rem;
+}
+.aabningstider {
+display: flex;
+flex-direction: column;
+}
+.kontaktmig {
+display: flex;
+flex-direction: column;
+margin-right: 2rem;
 }
 }

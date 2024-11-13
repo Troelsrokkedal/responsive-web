@@ -101,9 +101,12 @@ hr {
     padding-right: 3rem;
 }
 
-.inforhr{
+.runinfohr{
     display: none;
 }
+
+
+
 h2 {
     text-align: center;
     font-size: 1.2rem;
@@ -137,13 +140,14 @@ h2 {
     object-fit: cover;
 }
 .runhr {
-    margin-top: 4rem;
-    margin-right: 30px;
-    margin-left: 30px;
+   display: none;
 }
 
 .kreainfohr{
-    display: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .kreah2{
@@ -193,10 +197,17 @@ h2 {
     z-index: 3;
     object-fit: cover;
 } 
-.majhr {
-    margin-top: 4rem;
+
+.majmarkedhr{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.majhr {
+   display: none;
+
 }
 .majh2 {
     padding-top: 2rem;
@@ -269,6 +280,9 @@ h2 {
     text-align: center;
     padding-top: 5px;
 }
+.roundlogo {
+    display: none;
+}
 }
 
 @media screen and (min-width: 392px) {
@@ -337,12 +351,10 @@ border-color: #da7897;
     padding-top: 3rem;
 }
 
-.runinforhr{
-   padding: 3rem;
+.runinfohr{
    border-color: #da7897;
    margin-left: 2rem;
    width: 91%;
-   padding-bottom: 1.5rem;
 }
 
 .infotext {
@@ -406,9 +418,10 @@ padding-left: 37rem;
 font-size: 1.3rem;
 text-align: justify;
 line-height: 1.8rem;
-padding-left: 40rem;
-padding-right: 3rem;
+padding-left: 43rem;
+padding-right: 8rem;
 padding-top: 1.5rem;
+
 }
 
 .kreaimages {
@@ -448,20 +461,28 @@ z-index: 3;
 object-fit: cover;
 } 
 .majhr {
-margin-top: 4rem;
-margin-right: 30px;
-margin-left: 30px;
+display: none;
+}
+
+.majmarkedhr{
+    border-color: #da7897;
+    margin-left: 3rem;
+    width: 43%;  
 }
 .majh2 {
 padding-top: 2rem;
+text-align: justify;
+padding-left: 11rem; 
 }
 .majtext {
-font-size: 1rem;
+font-size: 1.3rem;
 text-align: justify;
 line-height: 1.8rem;
 padding-left: 3rem;
 padding-right: 3rem;
 padding-bottom: 2rem;
+width: 50%;
+
 }
 .majmedia {
 position: relative;
@@ -471,56 +492,91 @@ height: 275px;
 .oel{
 border-radius: 34px;
 position: absolute;
-top: 37.33%;
-left: 81%;
-width: 50%;
-height: 81%;
-z-index: 2;
+top: -36.67%;
+left: 383%;
+width: 80%;
+height: 110%;
+z-index: 3;
 object-fit: cover;
 }
 
 .majmarked {
 border-radius: 34px;
 position: absolute;
-top: -1%;
-left: 24%;
-width: 103%;
-height: 54%;
-z-index: 3;
+top: -116%;
+left: 332%;
+width: 150%;
+height: 95%;
+z-index: 2;
 object-fit: cover;
 }
 .torvvideo {
 border-radius: 34px;
 position: absolute;
-top: 43%;
-left: 4%;
-width: 80%;
-height: 80%;
+top: -35%;
+left: 276%;
+width: 110%;
+height: 120%;
 z-index: 1;
 object-fit: cover;
 }
 .footerhr {
-margin-bottom: 2rem;
-margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left:2rem ;
+    margin-bottom: 2rem;
+}
+
+.socialmediabox {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 .instagramlogo {
-width: 2rem;
-height: 2rem;
-margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
 
 }
 .facebooklogo {
-width: 2rem;
-height: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
 }
 
 .logoer{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footerinfo{
-text-align: center;
-padding-top: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
+button {
+    font-size: 2rem;
+}
+.pbottom {
+    padding-bottom: 2rem;
+}
+.aabningstider {
+display: flex;
+flex-direction: column;
+}
+.kontaktmig {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
 }
