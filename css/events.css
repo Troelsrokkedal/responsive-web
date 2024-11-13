@@ -100,6 +100,10 @@ hr {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
+.inforhr{
+    display: none;
+}
 h2 {
     text-align: center;
     font-size: 1.2rem;
@@ -265,59 +269,30 @@ h2 {
 
 @media screen and (min-width: 392px) {
     body {
-        background: linear-gradient(180deg, #d0fcff, #ffffff) ;
+        background: linear-gradient(135deg, #d0fcff, #ffffff) ;
     }
     
     .forsidelogo {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 60px;
+        width: 100px;
+        height: 130px;
         margin: auto; /* Centrerer containeren horisontalt */
         padding-bottom: 10px;
     }
-    /* Reset for margin/padding */
+
 
 /* Skjul checkboxen */
 .burger-checkbox {
 display: none;
 }
 
-/* Styling af burgerikonet */
-.burger {
-display: flex;
-flex-direction: column;
-cursor: pointer;
-position: absolute;
-top: 10px;
-right: 10px;
-width: 30px;
-margin: 10px;
-align-items: right;
-}
-
-.line {
-height: 3px;
-background-color: #da7897; /* Farve på linjerne */
-margin: 5px 0;
-border-radius: 2px; /* Runding af hjørner */
-}
-
-/* Styling af menuen */
-.menu {
-display: none; /* Skjul menuen som standard */
-background-color: #da7897;
-position: absolute;
-top: 90px; /* Placer menuen nedenfor burgerikonet */
-right: 0;
-width: 100%;
-text-align: left;
-font-family: playfairdisplay;
-}
 
 .menu ul {
 list-style: none;
+display: flex;
+justify-content: space-between;
 }
 
 .menu ul li {
@@ -325,7 +300,7 @@ padding: 15px;
 }
 
 .menu ul li a {
-color: white;
+color: black;
 text-decoration: none;
 font-size: 18px;
 display: block;
@@ -335,6 +310,7 @@ display: block;
 .burger-checkbox:checked + .burger + .menu {
 display: block;
 }
+
 h2 {
 font-family: playfairdisplay;
 }
@@ -345,14 +321,35 @@ hr {
 border-color: #da7897;
 
 }
-.infotext {
 
+.textevent1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
+    width: 50%;
+    height: 50%;
+    padding-top: 3rem;
+}
+
+hr.inforhr{
+   padding: 3rem;
+   border-color: #da7897;
+   margin-left: 2rem;
+   width: 91%;
+   padding-bottom: 1.5rem;
+}
+
+.infotext {
 font-size: 1rem;
 text-align: justify;
 line-height: 1.8rem;
 padding-left: 3rem;
 padding-right: 3rem;
+padding-top: 1.5rem;
 }
+
 h2 {
 text-align: center;
 font-size: 1.2rem;
@@ -367,22 +364,22 @@ height: 275px;
 .run{
 border-radius: 34px;
 position: absolute;
-top: 35.33%;
-left: 71%;
-width: 64%;
-height: 68%;
-z-index: 2;
+top: -74.67%;
+left: 374%;
+width: 110%;
+height: 140%;
+z-index: 1;
 object-fit: cover;
 }
 
 .run2 {
 border-radius: 34px;
 position: absolute;
-top: 19%;
-left: 8%;
-width: 69%;
-height: 71%;
-z-index: 1;
+top: -15%;
+left: 287%;
+width: 110%;
+height: 140%;
+z-index: 2;
 object-fit: cover;
 }
 .runhr {
