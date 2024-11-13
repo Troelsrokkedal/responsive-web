@@ -282,7 +282,7 @@ h2 {
 }
 .roundlogo {
     display: none;
-
+}
 }
 
 @media screen and (min-width: 392px) {
@@ -578,5 +578,5 @@ flex-direction: column;
     flex-direction: column;
     margin-right: 2rem;
 }
-}
+
 }
