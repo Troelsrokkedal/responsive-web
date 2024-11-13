@@ -250,8 +250,12 @@ h2 {
     position: absolute;
     box-shadow: 2px 2px 4px 0px grey;
     border: none;
-    
 }
+
+.eventbuttondesktop{
+    display: none;
+}
+
 .lokationh2 {
     padding-top: 8rem;
 }
@@ -298,6 +302,10 @@ h2 {
     position: absolute;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
+}
+
+.lokationbuttondesktop {
+    display: none;
 }
 
 .lokationlink {
@@ -548,6 +556,8 @@ h2 {
     font-weight: bold;
 }
 
+
+
 section.forsideevents {
     display: flex;
     justify-content: space-between;
@@ -578,43 +588,44 @@ section.forsideeventstext {
 }
 
 .eventimg{
+    display: flex;
     position: relative;
     width: 275px;
     height: 275px;
-    
+    margin-left: 3rem;
 }
 
 .run{
     border-radius: 34px;
     position: absolute;
     top: 5.33%;
-    left: 80%;
-    width: 45%; /* Får dem til at fylde hele containeren */
-    height: 90%;
-    z-index: 1;
+    left: 109%;
+    width: 90%;
+    height: 130%;
+    z-index: 2;
     object-fit: cover;
 }
 
 .keramik {
     border-radius: 34px;
     position: absolute;
-    top: 64%;
-    left: 64%;
-    width: 40%; /* Får dem til at fylde hele containeren */
-    height: 50%;
+    top: 78%;
+    left: 29%;
+    width: 90%;
+    height: 90%;
     z-index: 3;
     object-fit: cover;
-   
 }
+
 .strik {
     border-radius: 44px;
     border-color: #da7897;
     position: absolute;
-    top: 5.33%;
-    right: 21.33%;
-    width: 50%; /* Får dem til at fylde hele containeren */
-    height: 70%;
-    z-index: 2;
+    top: -22.67%;
+    right: -15.67%;
+    width: 80%;
+    height: 110%;
+    z-index: 1;
     object-fit: cover;
 }
 
@@ -626,16 +637,6 @@ section.forsideeventstext {
 }
 
 .eventbutton{
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 100%;
-    left: 10.66%;
-    z-index: 4;
-    position: absolute;
-    box-shadow: 2px 2px 4px 0px grey;
-    border: none;
     display: none;
 }
 
@@ -651,16 +652,33 @@ section.forsideeventstext {
     margin-top: 4rem;
 }
 
-.lokationh2 {
-    padding-top: 8rem;
+
+
+
+section.forsidelokation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
 }
+
+section.forsidelokationtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+
 .lokationshr {
-    margin-left: 30px;
-    margin-right: 30px;
+    border: solid 0.1rem #da7897;
+    width: 36rem;
+    margin-bottom: 1.5rem;
 }
 
 .lokationtekst {
-    padding-top: 1rem;
     font-size: 1rem;
     text-align: justify;
     line-height: 1.8rem;
@@ -670,15 +688,13 @@ section.forsideeventstext {
 
 .lokationbox {
     position: relative;
-    width: 275px;
-    height: 275px;
+    width: 50%;
+    height: 50%;
 }
 
 .lokationimg {
     border-radius: 44px;
-    position: absolute;
-    top: 37.33%;
-    left: 26%;
+    position: relative;
     width: 90%;
     height: 90%;
     z-index: 1;
@@ -687,16 +703,19 @@ section.forsideeventstext {
 }
 
 .lokationbutton {
+    display: none;
+}
+
+.lokationbuttondesktop {
     background-color: #da7897;
     border-radius: 20px;
     width: 6.5rem;
     padding: 10px 20px;
-    top: 10%;
-    left: 50%;
     z-index: 4;
-    position: absolute;
+    position: relative;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
+    margin-top: 4rem;
 }
 
 .lokationlink {
@@ -705,6 +724,9 @@ section.forsideeventstext {
     font-family: playfairdisplay;
     font-weight: bold;
 }
+
+
+
 .reviewh2 {
     padding-top: 8rem;
 }
