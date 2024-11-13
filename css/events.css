@@ -263,367 +263,255 @@ h2 {
 }
 }
 
-
-
 @media screen and (min-width: 392px) {
-    * {
-        font-family: playfairdisplay;
+    body {
+        background: linear-gradient(180deg, #d0fcff, #ffffff) ;
     }
-        body {
-            background: linear-gradient(180deg, #ffff99, #ffffff) ;
-        }
-        
-        .forsidelogo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 60px;
-            margin: auto; /* Centrerer containeren horisontalt */
-            padding-bottom: 10px;
-        }
-        /* Reset for margin/padding */
+    
+    .forsidelogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 60px;
+        margin: auto; /* Centrerer containeren horisontalt */
+        padding-bottom: 10px;
+    }
+    /* Reset for margin/padding */
 
 /* Skjul checkboxen */
 .burger-checkbox {
-    display: none;
+display: none;
 }
 
 /* Styling af burgerikonet */
 .burger {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 30px;
-    margin: 10px;
-    align-items: right;
+display: flex;
+flex-direction: column;
+cursor: pointer;
+position: absolute;
+top: 10px;
+right: 10px;
+width: 30px;
+margin: 10px;
+align-items: right;
 }
 
 .line {
-    height: 3px;
-    background-color: #da7897; /* Farve på linjerne */
-    margin: 5px 0;
-    border-radius: 2px; /* Runding af hjørner */
+height: 3px;
+background-color: #da7897; /* Farve på linjerne */
+margin: 5px 0;
+border-radius: 2px; /* Runding af hjørner */
 }
 
 /* Styling af menuen */
 .menu {
-    display: none; /* Skjul menuen som standard */
-    background-color: #da7897;
-    position: absolute;
-    top: 90px; /* Placer menuen nedenfor burgerikonet */
-    right: 0;
-    width: 100%;
-    text-align: left;
-    font-family: playfairdisplay;
+display: none; /* Skjul menuen som standard */
+background-color: #da7897;
+position: absolute;
+top: 90px; /* Placer menuen nedenfor burgerikonet */
+right: 0;
+width: 100%;
+text-align: left;
+font-family: playfairdisplay;
 }
 
 .menu ul {
-    list-style: none;
+list-style: none;
 }
 
 .menu ul li {
-    padding: 15px;
+padding: 15px;
 }
 
 .menu ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    display: block;
+color: white;
+text-decoration: none;
+font-size: 18px;
+display: block;
 }
 
 /* Vis menuen, når checkboxen er markeret */
 .burger-checkbox:checked + .burger + .menu {
-    display: block;
+display: block;
 }
-
+h2 {
+font-family: playfairdisplay;
+}
 header {
-    padding: 30px;
+padding: 30px;
 }
 hr {
-    border-color: #da7897;
-}
+border-color: #da7897;
 
-h2 {
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: playfairdisplay;
-    padding-bottom: 1rem;
 }
 .infotext {
-    font-size: 1rem;
-    text-align: justify;
-    line-height: 1.8rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-.bowl {
-    border-radius: 44px;
-    position: absolute;
-    top: 5.33%;
-    left: 70%;
-    width: 55%; /* Får dem til at fylde hele containeren */
-    height: 90%;
-    z-index: 1;
-    object-fit: cover;
-    
-}
-.bolle {
-    border-radius: 34px;
-    position: absolute;
-    top: 64%;
-    left: 43.33%;
-    width: 30%; /* Får dem til at fylde hele containeren */
-    height: 50%;
-    z-index: 3;
-    object-fit: cover;
-   
-}
-.avocado {
-    border-radius: 44px;
-    border-color: #da7897;
-    position: absolute;
-    top: 5.33%;
-    right: 36.67%;
-    width: 50%; /* Får dem til at fylde hele containeren */
-    height: 70%;
-    z-index: 2;
-    object-fit: cover;
-}
-.imagesfrontmenu {
-    position: relative;
-    width: 275px;
-    height: 275px;
 
+font-size: 1rem;
+text-align: justify;
+line-height: 1.8rem;
+padding-left: 3rem;
+padding-right: 3rem;
 }
-
-.menubutton {
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 102%;
-    left: 86.67%;
-    z-index: 4;
-    position: absolute;
-    border: none;
-    box-shadow: 2px 2px 4px 0px grey;
+h2 {
+text-align: center;
+font-size: 1.2rem;
+font-family: playfairdisplay;
+padding-bottom: 1rem;
 }
-.menukortlink {
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
+.runimages {
+position: relative;
+width: 275px;
+height: 275px;
 }
-
-.eventshr{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.eventsh2{
-    padding-top: 8rem;
-
-}
-
-.eventstekst{
-    padding-top: 1rem;
-    font-size: 1rem;
-    text-align: justify;
-    line-height: 1.8rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.eventimg{
-    position: relative;
-    width: 275px;
-    height: 275px;
-    
-}
-
 .run{
-    border-radius: 34px;
-    position: absolute;
-    top: 5.33%;
-    left: 80%;
-    width: 45%; /* Får dem til at fylde hele containeren */
-    height: 90%;
-    z-index: 1;
-    object-fit: cover;
+border-radius: 34px;
+position: absolute;
+top: 35.33%;
+left: 71%;
+width: 64%;
+height: 68%;
+z-index: 2;
+object-fit: cover;
+}
+
+.run2 {
+border-radius: 34px;
+position: absolute;
+top: 19%;
+left: 8%;
+width: 69%;
+height: 71%;
+z-index: 1;
+object-fit: cover;
+}
+.runhr {
+margin-top: 4rem;
+margin-right: 30px;
+margin-left: 30px;
+}
+
+.kreah2{
+padding-top: 2rem;
+}
+
+.kreatext {
+font-size: 1rem;
+text-align: justify;
+line-height: 1.8rem;
+padding-left: 3rem;
+padding-right: 3rem;
+}
+.kreaimages {
+position: relative;
+width: 275px;
+height: 275px;
+}
+.smykker{
+border-radius: 34px;
+position: absolute;
+top: -3.67%;
+left: 42%;
+width: 43%;
+height: 81%;
+z-index: 2;
+object-fit: cover;
 }
 
 .keramik {
-    border-radius: 34px;
-    position: absolute;
-    top: 64%;
-    left: 64%;
-    width: 40%; /* Får dem til at fylde hele containeren */
-    height: 50%;
-    z-index: 3;
-    object-fit: cover;
-   
+border-radius: 34px;
+position: absolute;
+top: 30%;
+left: 9%;
+width: 41%;
+height: 67%;
+z-index: 1;
+object-fit: cover;
 }
 .strik {
-    border-radius: 44px;
-    border-color: #da7897;
-    position: absolute;
-    top: 5.33%;
-    right: 21.33%;
-    width: 50%; /* Får dem til at fylde hele containeren */
-    height: 70%;
-    z-index: 2;
-    object-fit: cover;
+border-radius: 34px;
+position: absolute;
+top: 43%;
+left: 69%;
+width: 66%;
+height: 66%;
+z-index: 3;
+object-fit: cover;
+} 
+.majhr {
+margin-top: 4rem;
+margin-right: 30px;
+margin-left: 30px;
+}
+.majh2 {
+padding-top: 2rem;
+}
+.majtext {
+font-size: 1rem;
+text-align: justify;
+line-height: 1.8rem;
+padding-left: 3rem;
+padding-right: 3rem;
+padding-bottom: 2rem;
+}
+.majmedia {
+position: relative;
+width: 275px;
+height: 275px;
+}
+.oel{
+border-radius: 34px;
+position: absolute;
+top: 37.33%;
+left: 81%;
+width: 50%;
+height: 81%;
+z-index: 2;
+object-fit: cover;
 }
 
-.eventlink{
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
+.majmarked {
+border-radius: 34px;
+position: absolute;
+top: -1%;
+left: 24%;
+width: 103%;
+height: 54%;
+z-index: 3;
+object-fit: cover;
 }
-
-.eventbutton{
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 100%;
-    left: 10.66%;
-    z-index: 4;
-    position: absolute;
-    box-shadow: 2px 2px 4px 0px grey;
-    border: none;
-    
-}
-.lokationh2 {
-    padding-top: 8rem;
-}
-.lokationshr {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.lokationtekst {
-    padding-top: 1rem;
-    font-size: 1rem;
-    text-align: justify;
-    line-height: 1.8rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.lokationbox {
-    position: relative;
-    width: 275px;
-    height: 275px;
-}
-
-.lokationimg {
-    border-radius: 44px;
-    position: absolute;
-    top: 37.33%;
-    left: 26%;
-    width: 90%;
-    height: 90%;
-    z-index: 1;
-    object-fit: cover;
-    
-}
-
-.lokationbutton {
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 10%;
-    left: 50%;
-    z-index: 4;
-    position: absolute;
-    border: none;
-    box-shadow: 2px 2px 4px 0px grey;
-}
-
-.lokationlink {
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-}
-.reviewh2 {
-    padding-top: 8rem;
-}
-.reviewhr {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.reviewboks {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.haticeboks {
-    border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-}
-.lotteboks {
-    border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-}
-.galboks{
-    border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-}
-.hatice {
- margin-top: 1rem;
- margin-bottom: 1rem;
-}
-.lotte {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.gal {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.torvvideo {
+border-radius: 34px;
+position: absolute;
+top: 43%;
+left: 4%;
+width: 80%;
+height: 80%;
+z-index: 1;
+object-fit: cover;
 }
 .footerhr {
-    margin-bottom: 2rem;
+margin-bottom: 2rem;
+margin-top: 8rem;
 }
 .instagramlogo {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 1rem;
+width: 2rem;
+height: 2rem;
+margin-right: 1rem;
 
 }
 .facebooklogo {
-    width: 2rem;
-    height: 2rem;
+width: 2rem;
+height: 2rem;
 }
 
 .logoer{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .footerinfo{
-    text-align: center;
-    padding-top: 5px;
+text-align: center;
+padding-top: 5px;
 }
 }
