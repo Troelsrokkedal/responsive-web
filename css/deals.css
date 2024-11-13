@@ -345,6 +345,7 @@ input {
     display: flex;
     justify-content: space-between;
     margin-left:2rem ;
+    margin-bottom: 2rem;
 }
 
 .socialmediabox {
@@ -383,9 +384,7 @@ input {
 button {
     font-size: 2rem;
 }
-.pbottom {
-    padding-bottom: 2rem;
-}
+
 .aabningstider {
 display: flex;
 flex-direction: column;
