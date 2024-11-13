@@ -375,10 +375,12 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 2rem;
+    text-align: center;
 }
 
 .kontaktmig {
     line-height: 2rem;
+    text-align: center;
 }
 
 .roundlogo {
