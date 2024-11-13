@@ -161,9 +161,11 @@ h2 {
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
 }
+
 .menubuttondesktop {
     display: none;
 }
+
 .menukortlink {
     text-decoration: none;
     color: black;
@@ -523,7 +525,21 @@ h2 {
     margin-right: 22rem;
 
 }
-.menubuttondesktop {
+
+.menubutton {
+    display: none;
+}
+.menukortlink {
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+    font-size: 1.2rem;
     background-color: #da7897;
     border-radius: 20px;
     width: 8.5rem;
@@ -533,27 +549,7 @@ h2 {
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
     margin-top: 4rem;
-}
-
-.menubutton {
-    background-color: #da7897;
-    border-radius: 20px;
-    width: 6.5rem;
-    padding: 10px 20px;
-    top: 102%;
-    left: 86.67%;
-    z-index: 4;
-    position: absolute;
-    border: none;
-    box-shadow: 2px 2px 4px 0px grey;
-    display: none;
-}
-.menukortlink {
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-    font-size: 1.2rem;
+    text-align: center;
 }
 
 
@@ -640,22 +636,25 @@ section.forsideeventstext {
     font-family: playfairdisplay;
     font-weight: bold;
     font-size: 1.2rem;
-}
-
-.eventbutton{
-    display: none;
-}
-
-.eventbuttondesktop {
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+    font-size: 1.2rem;
     background-color: #da7897;
     border-radius: 20px;
     width: 8.5rem;
     padding: 10px 20px;
     z-index: 4;
     position: relative;
-    box-shadow: 2px 2px 4px 0px grey;
     border: none;
+    box-shadow: 2px 2px 4px 0px grey;
     margin-top: 4rem;
+    text-align: center;
+}
+
+.eventbutton{
+    display: none;
 }
 
 
@@ -715,7 +714,17 @@ section.forsidelokationtext {
     display: none;
 }
 
-.lokationbuttondesktop {
+.lokationlink {
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-family: playfairdisplay;
+    font-weight: bold;
+    font-size: 1.2rem;
     background-color: #da7897;
     border-radius: 20px;
     width: 8.5rem;
@@ -725,14 +734,7 @@ section.forsidelokationtext {
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
     margin-top: 4rem;
-}
-
-.lokationlink {
-    text-decoration: none;
-    color: black;
-    font-family: playfairdisplay;
-    font-weight: bold;
-    font-size: 1.2rem;
+    text-align: center;
 }
 
 
@@ -806,15 +808,31 @@ p {
 .footerhr {
     margin-bottom: 2rem;
 }
+.footerbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left:2rem ;
+    margin-bottom: 2rem;
+}
+
+.socialmediabox {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
 .instagramlogo {
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
     margin-right: 1rem;
+    margin-top: 2rem;
 
 }
 .facebooklogo {
-    width: 2rem;
-    height: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
 }
 
 .logoer{
@@ -824,6 +842,23 @@ p {
 
 .footerinfo{
     text-align: center;
+    font-size: 1.5rem;
     padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+button {
+    font-size: 2rem;
+}
+
+.aabningstider {
+display: flex;
+flex-direction: column;
+}
+.kontaktmig {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
 }
 }
