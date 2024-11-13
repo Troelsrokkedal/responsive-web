@@ -82,7 +82,10 @@
     display: block;
 }
 h2 {
+    text-align: center;
+    font-size: 1.5rem;
     font-family: playfairdisplay;
+    padding-bottom: 1rem;
 }
 header {
     padding: 30px;
@@ -224,6 +227,7 @@ section {
     position: relative;
     width: 275px;
     height: 275px;
+    margin-bottom: 9rem;
  }
 
  .drinks{
@@ -292,34 +296,43 @@ section {
     object-fit: cover;
  }
  
- .footerhr {
-    margin-bottom: 2rem;
-    margin-top: 10rem;
+.footerbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
 }
+
+.aabningstider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.kontaktmig {
+    line-height: 2rem;
+    text-align: center;
+}
+
+.roundlogo {
+    margin-bottom: 2rem;
+}
+
 .instagramlogo {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
-    margin-top: 1rem;
-
 }
+
 .facebooklogo {
     width: 2rem;
     height: 2rem;
-    margin-top: 1rem;
 }
 
 .logoer{
     display: flex;
     justify-content: center;
-}
-
-.footerinfo{
-    text-align: center;
-    padding-top: 5px;
-}
-.roundlogo {
-    display: none;
 }
 }
 
@@ -368,7 +381,10 @@ font-size: 1.5rem;
 display: block;
 }
 h2 {
+text-align: center;
+font-size: 1.2rem;
 font-family: playfairdisplay;
+padding-bottom: 1rem;
 }
 header {
 padding: 30px;
@@ -632,63 +648,51 @@ object-fit: cover;
 }
 
 .footerhr {
-margin-bottom: 2rem;
-margin-top: -8rem;
+    margin-bottom: 2rem;
 }
+
 .footerbox {
-display: flex;
-justify-content: space-between;
-margin-left:2rem ;
-margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    flex-direction: row;
 }
 
 .socialmediabox {
-display: flex;
-align-content: center;
-flex-direction: column;
-justify-content: center;
-font-size: 1rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
 }
+
 .instagramlogo {
-width: 5rem;
-height: 5rem;
-margin-right: 1rem;
-margin-top: 2rem;
-
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
 }
+
 .facebooklogo {
-width: 5rem;
-height: 5rem;
-margin-top: 2rem;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
 }
 
-.logoer{
-display: flex;
-justify-content: center;
+.logoer {
+    display: flex;
+    justify-content: center;
 }
 
-.footerinfo{
-text-align: center;
-font-size: 1rem;
-padding-top: 5px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-margin-top: 2rem;
-}
-button {
-    font-size: 2rem;
-}
-.pbottom {
-    padding-bottom: 2rem;
-}
 .aabningstider {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
 }
+
 .kontaktmig {
-display: flex;
-flex-direction: column;
-margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
 }
 }
