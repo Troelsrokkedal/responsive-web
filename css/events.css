@@ -144,7 +144,10 @@ h2 {
 }
 
 .kreainfohr{
-    display: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .kreah2{
@@ -196,13 +199,15 @@ h2 {
 } 
 
 .majmarkedhr{
-    display: none;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .majhr {
-    margin-top: 4rem;
-    margin-right: 30px;
-    margin-left: 30px;
+   display: none;
+
 }
 .majh2 {
     padding-top: 2rem;
@@ -275,6 +280,9 @@ h2 {
     text-align: center;
     padding-top: 5px;
 }
+.roundlogo {
+    display: none;
+
 }
 
 @media screen and (min-width: 392px) {
