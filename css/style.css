@@ -93,6 +93,10 @@ hr {
     border-color: #da7897;
 }
 
+.forsidehr {
+    display: none;
+}
+
 h2 {
     text-align: center;
     font-size: 1.2rem;
@@ -459,6 +463,12 @@ h2 {
     font-family: playfairdisplay;
     padding-bottom: 1rem;
 }
+
+.forsidehr {
+    border: solid 0.1rem #da7897;
+    width: 36rem;
+    margin-bottom: 1.5rem;
+}
 .infotext {
     font-size: 1rem;
     text-align: justify;
@@ -470,9 +480,9 @@ h2 {
     border-radius: 44px;
     position: absolute;
     top: 5.33%;
-    left: 70%;
-    width: 55%; /* Får dem til at fylde hele containeren */
-    height: 90%;
+    left: 92%;
+    width: 85%;
+    height: 125%;
     z-index: 1;
     object-fit: cover;
     
@@ -480,11 +490,11 @@ h2 {
 .bolle {
     border-radius: 34px;
     position: absolute;
-    top: 64%;
-    left: 43.33%;
-    width: 30%; /* Får dem til at fylde hele containeren */
-    height: 50%;
-    z-index: 3;
+    top: 79%;
+    left: 55.33%;
+    width: 70%;
+    height: 90%;
+    z-index: 2;
     object-fit: cover;
    
 }
@@ -492,13 +502,14 @@ h2 {
     border-radius: 44px;
     border-color: #da7897;
     position: absolute;
-    top: 5.33%;
-    right: 36.67%;
-    width: 50%; /* Får dem til at fylde hele containeren */
-    height: 70%;
-    z-index: 2;
+    top: 14.33%;
+    right: 16.67%;
+    width: 65%;
+    height: 90%;
+    z-index: 3;
     object-fit: cover;
 }
+
 .imagesfrontmenu {
     display: flex;
     position: relative;
@@ -516,6 +527,7 @@ h2 {
     position: relative;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
+    margin-top: 4rem;
 }
 
 .menubutton {
