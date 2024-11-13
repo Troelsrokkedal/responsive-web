@@ -527,7 +527,7 @@ h2 {
 .menubuttondesktop {
     background-color: #da7897;
     border-radius: 20px;
-    width: 6.5rem;
+    width: 8.5rem;
     padding: 10px 20px;
     z-index: 4;
     position: relative;
@@ -554,9 +554,15 @@ h2 {
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 
+
+
+
+
+/*EVENTS STARTER*/
 
 section.forsideevents {
     display: flex;
@@ -634,6 +640,7 @@ section.forsideeventstext {
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .eventbutton{
@@ -643,7 +650,7 @@ section.forsideeventstext {
 .eventbuttondesktop {
     background-color: #da7897;
     border-radius: 20px;
-    width: 6.5rem;
+    width: 8.5rem;
     padding: 10px 20px;
     z-index: 4;
     position: relative;
@@ -654,6 +661,9 @@ section.forsideeventstext {
 
 
 
+
+
+/*LOKATION STARTER*/
 
 section.forsidelokation {
     display: flex;
@@ -679,7 +689,7 @@ section.forsidelokationtext {
 }
 
 .lokationtekst {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: justify;
     line-height: 1.8rem;
     padding-left: 3rem;
@@ -709,7 +719,7 @@ section.forsidelokationtext {
 .lokationbuttondesktop {
     background-color: #da7897;
     border-radius: 20px;
-    width: 6.5rem;
+    width: 8.5rem;
     padding: 10px 20px;
     z-index: 4;
     position: relative;
@@ -723,59 +733,77 @@ section.forsidelokationtext {
     color: black;
     font-family: playfairdisplay;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 
+
+
+
+/*REVIEW STARTER*/
+
+section.forsidereview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .reviewh2 {
-    padding-top: 8rem;
+    margin-top: 12rem;
 }
+
 .reviewhr {
-    margin-left: 30px;
-    margin-right: 30px;
+    border: solid 0.1rem #da7897;
+    width: 36rem;
 }
+
 .reviewboks {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
-.haticeboks {
+
+.boks {
     border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
+    border-radius: 3rem;
+    text-align: center;
+    margin: 5rem;
+    padding-top: 2.5rem;
     padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 20%;
+    height: 20rem;
 }
-.lotteboks {
-    border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
+
+p {
+    font-size: 1.2rem;
 }
-.galboks{
-    border: 3px solid #da7897;
-    border-radius: 10px;
-    text-align: center; 
-    margin: 30px;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-}
+
 .hatice {
- margin-top: 1rem;
+ margin-top: 1.5rem;
  margin-bottom: 1rem;
+ font-size: 1.5rem;
 }
+
 .lotte {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
+
 .gal {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
+
+
+
+
+/*FOOTER STARTER*/
+
 .footerhr {
     margin-bottom: 2rem;
 }
