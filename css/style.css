@@ -364,11 +364,27 @@ h2 {
 }
 
 
+.footerbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+}
 
+.aabningstider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
 
-.footerhr {
+.kontaktmig {
+    line-height: 2rem;
+}
+
+.roundlogo {
     margin-bottom: 2rem;
 }
+
 .instagramlogo {
     width: 2rem;
     height: 2rem;
@@ -383,11 +399,6 @@ h2 {
 .logoer{
     display: flex;
     justify-content: center;
-}
-
-.footerinfo{
-    text-align: center;
-    padding-top: 5px;
 }
 }
 
@@ -418,7 +429,6 @@ h2 {
     display: none;
 }
 
-
 .menu ul {
     list-style: none;
     display: flex;
@@ -443,6 +453,7 @@ h2 {
 header {
     padding: 30px;
 }
+
 hr {
     border-color: #da7897;
 }
@@ -454,7 +465,8 @@ hr {
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.forsidemenutext{
+
+.forsidemenutext {
     text-align: center;
     display: flex;
     padding-left: 0.3rem;
@@ -478,6 +490,7 @@ h2 {
     width: 36rem;
     margin-bottom: 1.5rem;
 }
+
 .infotext {
     font-size: 1.3rem;
     text-align: justify;
@@ -485,6 +498,7 @@ h2 {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
 .bowl {
     border-radius: 44px;
     position: absolute;
@@ -494,8 +508,8 @@ h2 {
     height: 125%;
     z-index: 1;
     object-fit: cover;
-    
 }
+
 .bolle {
     border-radius: 34px;
     position: absolute;
@@ -505,8 +519,8 @@ h2 {
     height: 90%;
     z-index: 2;
     object-fit: cover;
-   
 }
+
 .avocado {
     border-radius: 44px;
     border-color: #da7897;
@@ -525,7 +539,6 @@ h2 {
     width: 275px;
     height: 275px;
     margin-right: 22rem;
-
 }
 
 .menukortlink {
@@ -571,13 +584,13 @@ section.forsideeventstext {
     align-items: center;
 }
 
-.eventshr{
+.eventshr {
     border: solid 0.1rem #da7897;
     width: 36rem;
     margin-bottom: 1.5rem;
 }
 
-.eventstekst{
+.eventstekst {
     font-size: 1.3rem;
     text-align: justify;
     line-height: 1.8rem;
@@ -585,7 +598,7 @@ section.forsideeventstext {
     padding-right: 3rem;
 }
 
-.eventimg{
+.eventimg {
     display: flex;
     position: relative;
     width: 275px;
@@ -593,7 +606,7 @@ section.forsideeventstext {
     margin-left: 3rem;
 }
 
-.run{
+.run {
     border-radius: 34px;
     position: absolute;
     top: 5.33%;
@@ -627,7 +640,7 @@ section.forsideeventstext {
     object-fit: cover;
 }
 
-.eventlinkdesktop{
+.eventlinkdesktop {
     text-decoration: none;
     color: black;
     font-family: playfairdisplay;
@@ -643,10 +656,9 @@ section.forsideeventstext {
     text-align: center;
 }
 
-.eventlink{
+.eventlink {
     display: none;
 }
-
 
 
 
@@ -668,7 +680,6 @@ section.forsidelokationtext {
     height: 50%;
     width: 50%;
 }
-
 
 .lokationshr {
     border: solid 0.1rem #da7897;
@@ -719,7 +730,6 @@ section.forsidelokationtext {
     margin-top: 4rem;
     text-align: center;
 }
-
 
 
 
@@ -791,11 +801,12 @@ p {
 .footerhr {
     margin-bottom: 2rem;
 }
+
 .footerbox {
     display: flex;
     justify-content: space-between;
-    margin-left:2rem ;
-    margin-bottom: 2rem;
+    margin: 2rem;
+    flex-direction: row;
 }
 
 .socialmediabox {
@@ -805,43 +816,34 @@ p {
     justify-content: center;
     font-size: 1.5rem;
 }
+
 .instagramlogo {
     width: 5rem;
     height: 5rem;
     margin-right: 1rem;
     margin-top: 2rem;
-
 }
+
 .facebooklogo {
     width: 5rem;
     height: 5rem;
     margin-top: 2rem;
 }
 
-.logoer{
+.logoer {
     display: flex;
     justify-content: center;
 }
 
-.footerinfo{
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 5px;
+.aabningstider {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-button {
-    font-size: 2rem;
+    flex-direction: column;
+    line-height: 2rem;
 }
 
-.aabningstider {
-display: flex;
-flex-direction: column;
-}
 .kontaktmig {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    line-height: 2rem;
 }
 }
