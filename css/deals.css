@@ -186,177 +186,179 @@ hr {
 
 }
 
-@media screen and (min-width: 392px){
-    body {
-        background: linear-gradient(180deg, #e6e6fa, #ffffff) ;
+@media screen and (min-width: 392px) {
+    * {
+        font-family: playfairdisplay;
     }
-    
-    .forsidelogo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50px;
-        height: 60px;
-        margin: auto; /* Centrerer containeren horisontalt */
-        padding-bottom: 10px;
-    }
-    /* Reset for margin/padding */
+        body {
+            background: linear-gradient(135deg, #e6e6fa, #ffffff) ;
+        }
+        
+        .forsidelogo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 130px;
+            margin: auto; /* Centrerer containeren horisontalt */
+            padding-bottom: 10px;
+        }
+        /* Reset for margin/padding */
 
 /* Skjul checkboxen */
 .burger-checkbox {
-display: none;
+    display: none;
 }
 
-/* Styling af burgerikonet */
-.burger {
-display: flex;
-flex-direction: column;
-cursor: pointer;
-position: absolute;
-top: 10px;
-right: 10px;
-width: 30px;
-margin: 10px;
-align-items: right;
-}
-
-.line {
-height: 3px;
-background-color: #da7897; /* Farve på linjerne */
-margin: 5px 0;
-border-radius: 2px; /* Runding af hjørner */
-}
-
-/* Styling af menuen */
-.menu {
-display: none; /* Skjul menuen som standard */
-background-color: #da7897;
-position: absolute;
-top: 90px; /* Placer menuen nedenfor burgerikonet */
-right: 0;
-width: 100%;
-text-align: left;
-font-family: playfairdisplay;
-}
 
 .menu ul {
-list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu ul li {
-padding: 15px;
+    padding: 15px;
 }
 
 .menu ul li a {
-color: white;
-text-decoration: none;
-font-size: 18px;
-display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /* Vis menuen, når checkboxen er markeret */
 .burger-checkbox:checked + .burger + .menu {
-display: block;
+    display: block;
 }
-h2 {
-font-family: playfairdisplay;
-}
+
 header {
-padding: 30px;
+    padding: 30px;
 }
 hr {
-border-color: #da7897;
+    border-color: #da7897;
+}
+h2 {
+    font-family: playfairdisplay;
+}
+header {
+    padding: 30px;
+}
+hr {
+    border-color: #da7897;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 3rem;
+}
+.shoppunkter {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.beloeb{
+    border: solid #da7897;
+    font-family: playfairdisplay;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 6rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
-
-
-.beloeb{
-border: solid #da7897;
-font-family: playfairdisplay;
-text-align: center;
-border-radius: 24px;
-padding: 1.5rem;
-margin-bottom: 2rem;
-margin-left: 1rem;
-margin-right: 1rem;
-
+span {
+    font-size: 2rem;
+}
+label {
+    font-size: 2rem;
 }
 
 #amount{
-text-decoration: none;
+    text-decoration: none;
 }
 
 .antal{
-border: solid #da7897;
-font-family: playfairdisplay;
-text-align: center;
-border-radius: 24px;
-padding: 1.5rem;
-margin-bottom: 2rem;
-margin-left: 1rem;
-margin-right: 1rem;
+    border: solid #da7897;
+    font-family: playfairdisplay;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 5rem;
+    margin-bottom: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+input {
+    font-size: 1.5rem;
 }
 
 .koeb{
-border: solid #da7897;
-font-family: playfairdisplay;
-text-align: center;
-border-radius: 24px;
-padding: 1.5rem;
-margin-bottom: 2rem;
-margin-left: 1rem;
-margin-right: 1rem;
-
+    border: solid #da7897;
+    font-family: playfairdisplay;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 24px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
 }
 
 .koebbox{
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .imgbox{
-position: relative;
-width: 275px;
-height: 275px;
+    position: relative;
+    width: 275px;
+    height: 275px;
+    margin-top: -10rem;
 
 }
 .dealsimg{
-border-radius: 44px;
-position: absolute;
-top: 2.33%;
-left: 24%;
-width: 91%;
-height: 103%;
-z-index: 1;
-object-fit: cover;
-
+    border-radius: 44px;
+    position: absolute;
+    top: -186.67%;
+    left: 45%;
+    width: 180%;
+    height: 225%;
+    z-index: 1;
+    object-fit: cover;
+    
 }
-
 .footerhr {
-margin-bottom: 2rem;
-margin-top: 6rem;
+    margin-bottom: 2rem;
 }
 .instagramlogo {
-width: 2rem;
-height: 2rem;
-margin-right: 1rem;
-margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
 
 }
 .facebooklogo {
-width: 2rem;
-height: 2rem;
-margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 .logoer{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footerinfo{
-text-align: center;
-padding-top: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+button {
+    font-size: 2rem;
 }
 }
 
