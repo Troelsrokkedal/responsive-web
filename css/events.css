@@ -11,19 +11,23 @@
 
 
 @media screen and (max-width: 391px ) {
-        body {
-            background: linear-gradient(180deg, #d0fcff, #ffffff) ;
-        }
+    * {
+        font-family: playfairdisplay;
+    }
+
+    body {
+        background: linear-gradient(180deg, #d0fcff, #ffffff) ;
+    }
         
-        .forsidelogo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 60px;
-            margin: auto; /* Centrerer containeren horisontalt */
-            padding-bottom: 10px;
-        }
+    .forsidelogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 60px;
+        margin: auto; /* Centrerer containeren horisontalt */
+        padding-bottom: 10px;
+    }
         /* Reset for margin/padding */
 
 /* Skjul checkboxen */
@@ -164,6 +168,8 @@ h2 {
     position: relative;
     width: 275px;
     height: 275px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .smykker{
     border-radius: 34px;
@@ -285,6 +291,10 @@ h2 {
 }
 
 @media screen and (min-width: 392px) {
+    * {
+        font-family: playfairdisplay;
+    }
+
     body {
         background: linear-gradient(135deg, #d0fcff, #ffffff) ;
     }
