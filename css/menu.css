@@ -555,6 +555,10 @@ list-style-type: none;
 margin-top: -1rem;  
 }
 
+ul{
+    list-style-type: none;
+}
+
 .drikkevarerbilleder{
 position: relative;
 width: 200px;
