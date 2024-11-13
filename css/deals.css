@@ -82,8 +82,10 @@
     display: block;
 }
 h2 {
-    font-family: playfairdisplay;
     text-align: center;
+    font-size: 1.2rem;
+    font-family: playfairdisplay;
+    padding-bottom: 1rem;
 }
 header {
     padding: 30px;
@@ -142,6 +144,7 @@ hr {
     position: relative;
     width: 275px;
     height: 275px;
+    margin-bottom: 3rem;
 
 }
 .dealsimg{
@@ -156,16 +159,35 @@ hr {
     
 }
 
-.footerhr {
-    margin-bottom: 2rem;
-    margin-top: 6rem;
+.footerbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
 }
+
+.aabningstider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.kontaktmig {
+    line-height: 2rem;
+    text-align: center;
+}
+
+.roundlogo {
+    margin-bottom: 2rem;
+}
+
 .instagramlogo {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
-
 }
+
 .facebooklogo {
     width: 2rem;
     height: 2rem;
@@ -174,16 +196,6 @@ hr {
 .logoer{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-}
-
-.footerinfo{
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 1rem;
-}
-.roundlogo {
-    display: none;
 }
 
 
@@ -337,14 +349,27 @@ input {
     object-fit: cover;
     
 }
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: playfairdisplay;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
 .footerhr {
     margin-bottom: 2rem;
 }
+
 .footerbox {
     display: flex;
     justify-content: space-between;
-    margin-left:2rem ;
-    margin-bottom: 2rem;
+    margin: 2rem;
+    flex-direction: row;
 }
 
 .socialmediabox {
@@ -354,44 +379,35 @@ input {
     justify-content: center;
     font-size: 1.5rem;
 }
+
 .instagramlogo {
     width: 5rem;
     height: 5rem;
     margin-right: 1rem;
     margin-top: 2rem;
-
 }
+
 .facebooklogo {
     width: 5rem;
     height: 5rem;
     margin-top: 2rem;
 }
 
-.logoer{
+.logoer {
     display: flex;
     justify-content: center;
 }
 
-.footerinfo{
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: 5px;
+.aabningstider {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-button {
-    font-size: 2rem;
+    flex-direction: column;
+    line-height: 2rem;
 }
 
-.aabningstider {
-display: flex;
-flex-direction: column;
-}
 .kontaktmig {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    line-height: 2rem;
 }
 }
 
