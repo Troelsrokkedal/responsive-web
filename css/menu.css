@@ -399,9 +399,9 @@ list-style-type: none;
 }
 
 .morgenmadhr {
-    border: solid 0.1rem #da7897;
-    width: 8rem;
-    margin-bottom: 0.5rem;
+border: solid 0.1rem #da7897;
+width: 8rem;
+margin-bottom: 0.5rem;
 }
 a {
 text-decoration: none;
@@ -431,10 +431,10 @@ float: right;
 .bollesnurre{
 border-radius: 44px;
 position: absolute;
-top: -260.67%;
-right: 14.67%;
-width: 100%;
-height: 120%;
+top: -298.67%;
+right: 41.67%;
+width: 125%;
+height: 155%;
 z-index: 2;
 object-fit: cover;
 }
@@ -442,10 +442,10 @@ object-fit: cover;
 .bowl{
 border-radius: 44px;
 position: absolute;
-top: -251.67%;
-right: 131.67%;
-width: 105%;
-height: 125%;
+top: -321.67%;
+right: 174.67%;
+width: 130%;
+height: 150%;
 z-index: 1;
 object-fit: cover;
 }
@@ -453,22 +453,29 @@ object-fit: cover;
 .snurre{
 border-radius: 44px;
 position: absolute;
-top: -154.67%;
-right: 82.67%;
-width: 90%;
-height: 110%;
+top: -184.67%;
+right: 134.67%;
+width: 120%;
+height: 140%;
 z-index: 3;
 object-fit: cover;
 }
 
 .frokosthr {
-margin-top: 8rem;
+margin-top: 4rem;
 margin-right: 30px;
 margin-left: 30px;
+display: none;
 }
 
 .frokosth3{
-padding-top: 2rem;
+padding-top: 5rem;
+}
+
+.frokosth3hr{
+border: solid 0.1rem #da7897;
+width: 5rem;
+margin-bottom: 0.5rem;
 }
 
 .frokostbillede{
@@ -477,13 +484,22 @@ width: 275px;
 height: 275px;
 }
 
+.frokosthøjre {
+text-align: left;
+line-height: 1.8rem;
+padding-left: 45rem;
+list-style-type: none;
+margin-top: -3rem;
+
+}
+
 .avocado{
 border-radius: 44px;
 position: absolute;
-top: 20.33%;
-right: -25.33%;
-width: 55%;
-height: 63%;
+top: -106.67%;
+right: -114.33%;
+width: 110%;
+height: 118%;
 z-index: 2;
 object-fit: cover;
 }
@@ -491,10 +507,10 @@ object-fit: cover;
 .bord{
 border-radius: 44px;
 position: absolute;
-top: 58.33%;
-right: 17.67%;
-width: 60%;
-height: 80%;
+top: -2.33%;
+right: -45.33%;
+width: 100%;
+height: 120%;
 z-index: 3;
 object-fit: cover;
 }
@@ -502,10 +518,10 @@ object-fit: cover;
 .sandwich{
 border-radius: 44px;
 position: absolute;
-top: 15.33%;
-right: 22.67%;
-width: 67%;
-height: 57%;
+top: -89.67%;
+right: -12.33%;
+width: 107%;
+height: 100%;
 z-index: 1;
 object-fit: cover;
 }
