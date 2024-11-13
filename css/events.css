@@ -338,16 +338,18 @@ hr.inforhr{
    border-color: #da7897;
    margin-left: 2rem;
    width: 91%;
-
-
+   padding-bottom: 1.5rem;
 }
+
 .infotext {
 font-size: 1rem;
 text-align: justify;
 line-height: 1.8rem;
 padding-left: 3rem;
 padding-right: 3rem;
+padding-top: 1.5rem;
 }
+
 h2 {
 text-align: center;
 font-size: 1.2rem;
@@ -362,22 +364,22 @@ height: 275px;
 .run{
 border-radius: 34px;
 position: absolute;
-top: 35.33%;
-left: 71%;
-width: 64%;
-height: 68%;
-z-index: 2;
+top: -74.67%;
+left: 374%;
+width: 110%;
+height: 140%;
+z-index: 1;
 object-fit: cover;
 }
 
 .run2 {
 border-radius: 34px;
 position: absolute;
-top: 19%;
-left: 8%;
-width: 69%;
-height: 71%;
-z-index: 1;
+top: -15%;
+left: 287%;
+width: 110%;
+height: 140%;
+z-index: 2;
 object-fit: cover;
 }
 .runhr {
