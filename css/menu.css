@@ -395,7 +395,7 @@ list-style-type: none;
 }
 
 .morgenmad{
-    margin-bottom: 0.5rem;
+margin-bottom: 0.5rem;
 }
 
 .morgenmadhr {
@@ -408,13 +408,14 @@ text-decoration: none;
 color: black;
 font-family: playfairdisplay;
 font-size: 1.3rem;
+list-style-type: none;
 }
 section {
 text-align: left;
 line-height: 1.8rem;
 padding: 3rem;
-list-style-type: none;
 margin-top: -3rem;
+list-style-type: none;
 }
 
 h4{
@@ -544,6 +545,14 @@ width: 7rem;
 margin-bottom: 0.5rem;
 }
 
+.alkoholdrikke {
+text-align: left;
+line-height: 1.8rem;
+padding-left: 50rem;
+list-style-type: none;
+margin-top: -1rem;  
+}
+
 .drikkevarerbilleder{
 position: relative;
 width: 275px;
@@ -553,10 +562,10 @@ height: 275px;
 .drinks{
 border-radius: 44px;
 position: absolute;
-top: 52.33%;
-right: 14.67%;
-width: 56%;
-height: 53%;
+top: -172.67%;
+right: -33.33%;
+width: 106%;
+height: 103%;
 z-index: 3;
 object-fit: cover;
 }
@@ -564,10 +573,10 @@ object-fit: cover;
 .juice{
 border-radius: 44px;
 position: absolute;
-top: 8.33%;
-right: -3.33%;
-width: 74%;
-height: 53%;
+top: -466.67%;
+right: -354.33%;
+width: 150%;
+height: 130%;
 z-index: 1;
 object-fit: cover;
 }
@@ -575,10 +584,10 @@ object-fit: cover;
 .kaffe{
 border-radius: 44px;
 position: absolute;
-top: 17.33%;
-right: 44.67%;
-width: 49%;
-height: 66%;
+top: -339.67%;
+right: -330.33%;
+width: 130%;
+height: 145%;
 z-index: 2;
 object-fit: cover;
 }
@@ -586,10 +595,10 @@ object-fit: cover;
 .kakao{
 border-radius: 44px;
 position: absolute;
-top: 55.33%;
-right: -35.33%;
-width: 60%;
-height: 70%;
+top: -439.67%;
+right: -210.33%;
+width: 120%;
+height: 130%;
 z-index: 4;
 object-fit: cover;
 }
@@ -597,10 +606,10 @@ object-fit: cover;
 .spritz{
 border-radius: 44px;
 position: absolute;
-top: 78.33%;
-right: 51.67%;
-width: 44%;
-height: 59%;
+top: -75.67%;
+right: -29.33%;
+width: 104%;
+height: 119%;
 z-index: 5;
 object-fit: cover;
 }
@@ -608,17 +617,17 @@ object-fit: cover;
 .vin{
 border-radius: 44px;
 position: absolute;
-top: 13.33%;
-right: -35.33%;
-width: 40%;
-height: 49%;
+top: -125.67%;
+right: -122.33%;
+width: 100%;
+height: 140%;
 z-index: 6;
 object-fit: cover;
 }
 
 .footerhr {
 margin-bottom: 2rem;
-margin-top: 10rem;
+margin-top: -5rem;
 }
 .instagramlogo {
 width: 2rem;
