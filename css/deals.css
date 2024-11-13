@@ -84,6 +84,7 @@
 }
 h2 {
     font-family: playfairdisplay;
+    text-align: center;
 }
 header {
     padding: 30px;
@@ -164,23 +165,23 @@ hr {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
-    margin-top: 1rem;
 
 }
 .facebooklogo {
     width: 2rem;
     height: 2rem;
-    margin-top: 1rem;
 }
 
 .logoer{
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .footerinfo{
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 1rem;
 }
 .roundlogo {
     display: none;
