@@ -447,10 +447,12 @@ hr {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 50%;
     height: 50%;
 }
+
+
 h2 {
     text-align: center;
     font-size: 1.2rem;
@@ -511,11 +513,9 @@ h2 {
     width: 6.5rem;
     padding: 10px 20px;
     z-index: 4;
-    position: absolute;
+    position: relative;
     border: none;
     box-shadow: 2px 2px 4px 0px grey;
-    top: 52%;
-    left: 21%;
 }
 
 .menubutton {
