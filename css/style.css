@@ -548,7 +548,7 @@ h2 {
 .bolle {
     border-radius: 34px;
     position: absolute;
-    top: 79%; /*top og left taget styger hvor på siden billedet sidder*/
+    top: 79%; /*top og left taget styrer hvor på siden billedet sidder*/
     left: 55.33%;
     width: 70%;
     height: 90%;
