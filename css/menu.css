@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 @font-face {
     font-family: playfairdisplay;
     src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
@@ -81,19 +81,23 @@
 .burger-checkbox:checked + .burger + .menu {
     display: block;
 }
+
 h2 {
     text-align: center;
     font-size: 1.5rem;
     font-family: playfairdisplay;
     padding-bottom: 1rem;
 }
+
 header {
     padding: 30px;
 }
+
 hr {
     border-color: #da7897;
 }
- .menumenu{
+
+.menumenu {
 display: flex;
 justify-content: space-between;
 text-decoration: none;
@@ -105,33 +109,35 @@ padding-right: 30px;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 15px;
-
 }
-.morgenmadhr{
+
+.morgenmadhr {
     display: none;
 }
+
 a {
     text-decoration: none;
     color: black;
     font-family: playfairdisplay;
     font-size: 1.2rem;
 }
+
 section {
     text-align: center;
     line-height: 1.8rem;
 }
 
- h4{
+ h4 {
     padding-top: 1.5rem;
  }
 
- .morgenbilleder{
+ .morgenbilleder {
     position: relative;
     width: 275px;
     height: 275px;
  }
 
- .bollesnurre{
+ .bollesnurre {
     border-radius: 44px;
     position: absolute;
     top: 33.33%;
@@ -142,7 +148,7 @@ section {
     object-fit: cover;
  }
 
- .bowl{
+ .bowl {
     border-radius: 44px;
     position: absolute;
     top: 5.33%;
@@ -153,7 +159,7 @@ section {
     object-fit: cover;
  }
 
- .snurre{
+ .snurre {
     border-radius: 44px;
     position: absolute;
     top: 62.33%;
@@ -170,17 +176,17 @@ section {
     margin-left: 30px;
  }
 
- .frokosth3{
+ .frokosth3 {
     padding-top: 2rem;
  }
 
- .frokostbillede{
+ .frokostbillede {
     position: relative;
     width: 275px;
     height: 275px;
  }
 
- .avocado{
+ .avocado {
     border-radius: 44px;
     position: absolute;
     top: 20.33%;
@@ -191,7 +197,7 @@ section {
     object-fit: cover;
  }
 
- .bord{
+ .bord {
     border-radius: 44px;
     position: absolute;
     top: 58.33%;
@@ -202,7 +208,7 @@ section {
     object-fit: cover;
  }
 
- .sandwich{
+ .sandwich {
     border-radius: 44px;
     position: absolute;
     top: 15.33%;
@@ -213,13 +219,13 @@ section {
     object-fit: cover;
  }
 
- .drikkevarerhr{
+ .drikkevarerhr {
     margin-top: 8rem;
     margin-right: 30px;
     margin-left: 30px;
  }
 
- .drikkevarerh3{
+ .drikkevarerh3 {
     padding-top: 2rem;
  }
 
@@ -230,7 +236,7 @@ section {
     margin-bottom: 9rem;
  }
 
- .drinks{
+ .drinks {
     border-radius: 44px;
     position: absolute;
     top: 52.33%;
@@ -241,7 +247,7 @@ section {
     object-fit: cover;
  }
 
- .juice{
+ .juice {
     border-radius: 44px;
     position: absolute;
     top: 8.33%;
@@ -252,7 +258,7 @@ section {
     object-fit: cover;
  }
 
- .kaffe{
+ .kaffe {
     border-radius: 44px;
     position: absolute;
     top: 17.33%;
@@ -263,7 +269,7 @@ section {
     object-fit: cover;
  }
 
- .kakao{
+ .kakao {
     border-radius: 44px;
     position: absolute;
     top: 55.33%;
@@ -274,7 +280,7 @@ section {
     object-fit: cover;
  }
 
- .spritz{
+ .spritz {
     border-radius: 44px;
     position: absolute;
     top: 78.33%;
@@ -285,7 +291,7 @@ section {
     object-fit: cover;
  }
 
- .vin{
+ .vin {
     border-radius: 44px;
     position: absolute;
     top: 13.33%;
@@ -331,7 +337,7 @@ section {
     height: 2rem;
 }
 
-.logoer{
+.logoer {
     display: flex;
     justify-content: center;
 }
@@ -374,26 +380,29 @@ padding: 15px;
 color: black;
 text-decoration: none;
 font-size: 1.5rem;
-
 }
 
 /* Vis menuen, når checkboxen er markeret */
 .burger-checkbox:checked + .burger + .menu {
 display: block;
 }
+
 h2 {
 text-align: center;
 font-size: 1.2rem;
 font-family: playfairdisplay;
 padding-bottom: 1rem;
 }
+
 header {
 padding: 30px;
 }
+
 hr {
 border-color: #da7897;
 }
-.menumenu{
+
+.menumenu {
 display: flex;
 justify-content: space-between;
 text-decoration: none;
@@ -413,7 +422,7 @@ display: none;
 list-style-type: none;
 }
 
-.morgenmad{
+.morgenmad {
 margin-bottom: 0.5rem;
 }
 
@@ -422,6 +431,7 @@ border: solid 0.1rem #da7897;
 width: 8rem;
 margin-bottom: 0.5rem;
 }
+
 a {
 text-decoration: none;
 color: black;
@@ -429,6 +439,7 @@ font-family: playfairdisplay;
 font-size: 1.3rem;
 list-style-type: none;
 }
+
 section {
 text-align: left;
 line-height: 1.8rem;
@@ -437,18 +448,18 @@ margin-top: -3rem;
 list-style-type: none;
 }
 
-h4{
+h4 {
 padding-top: 1.5rem;
 }
 
-.morgenbilleder{
+.morgenbilleder {
 position: relative;
 width: 200px;
 height: 200px;
 float: right;
 }
 
-.bollesnurre{
+.bollesnurre {
 border-radius: 44px;
 position: absolute;
 top: -298.67%;
@@ -459,7 +470,7 @@ z-index: 2;
 object-fit: cover;
 }
 
-.bowl{
+.bowl {
 border-radius: 44px;
 position: absolute;
 top: -321.67%;
@@ -470,7 +481,7 @@ z-index: 1;
 object-fit: cover;
 }
 
-.snurre{
+.snurre {
 border-radius: 44px;
 position: absolute;
 top: -184.67%;
@@ -488,17 +499,17 @@ margin-left: 30px;
 display: none;
 }
 
-.frokosth3{
+.frokosth3 {
 padding-top: 5rem;
 }
 
-.frokosth3hr{
+.frokosth3hr {
 border: solid 0.1rem #da7897;
 width: 5rem;
 margin-bottom: 0.5rem;
 }
 
-.frokostbillede{
+.frokostbillede {
 position: relative;
 width: 275px;
 height: 275px;
@@ -510,10 +521,9 @@ line-height: 1.8rem;
 padding-left: 45rem;
 list-style-type: none;
 margin-top: -3rem;
-
 }
 
-.avocado{
+.avocado {
 border-radius: 44px;
 position: absolute;
 top: -106.67%;
@@ -524,7 +534,7 @@ z-index: 2;
 object-fit: cover;
 }
 
-.bord{
+.bord {
 border-radius: 44px;
 position: absolute;
 top: -2.33%;
@@ -535,7 +545,7 @@ z-index: 3;
 object-fit: cover;
 }
 
-.sandwich{
+.sandwich {
 border-radius: 44px;
 position: absolute;
 top: -89.67%;
@@ -546,19 +556,19 @@ z-index: 1;
 object-fit: cover;
 }
 
-.drikkevarerhr{
+.drikkevarerhr {
 margin-top: 8rem;
 margin-right: 30px;
 margin-left: 30px;
 display: none;
 }
 
-.drikkevarerh3{
+.drikkevarerh3 {
 padding-top: 5rem;
 font-size: 1.2rem;
 }
 
-.drikkevarerh3hr{
+.drikkevarerh3hr {
 border: solid 0.1rem #da7897;
 width: 7rem;
 margin-bottom: 0.5rem;
@@ -572,17 +582,17 @@ list-style-type: none;
 margin-top: -1rem;  
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.drikkevarerbilleder{
+.drikkevarerbilleder {
 position: relative;
 width: 200px;
 height: 200px;
 }
 
-.drinks{
+.drinks {
 border-radius: 44px;
 position: absolute;
 top: -235.67%;
@@ -593,7 +603,7 @@ z-index: 3;
 object-fit: cover;
 }
 
-.juice{
+.juice {
 border-radius: 44px;
 position: absolute;
 top: -712.67%;
@@ -604,7 +614,7 @@ z-index: 1;
 object-fit: cover;
 }
 
-.kaffe{
+.kaffe {
 border-radius: 44px;
 position: absolute;
 top: -552.67%;
@@ -615,7 +625,7 @@ z-index: 4;
 object-fit: cover;
 }
 
-.kakao{
+.kakao {
 border-radius: 44px;
 position: absolute;
 top: -631.67%;
@@ -626,7 +636,7 @@ z-index: 4;
 object-fit: cover;
 }
 
-.spritz{
+.spritz {
 border-radius: 44px;
 position: absolute;
 top: -122.67%;
@@ -637,7 +647,7 @@ z-index: 5;
 object-fit: cover;
 }
 
-.vin{
+.vin {
 border-radius: 44px;
 position: absolute;
 top: -192.67%;

@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 @font-face {
     font-family: playfairdisplay;
     src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
@@ -85,18 +85,20 @@
 .burger-checkbox:checked + .burger + .menu {
     display: block;
 }
+
 h2 {
     font-family: playfairdisplay;
 }
+
 header {
     padding: 30px;
 }
+
 hr {
     border-color: #da7897;
-    
 }
-.infotext {
 
+.infotext {
     font-size: 1rem;
     text-align: justify;
     line-height: 1.8rem;
@@ -104,11 +106,9 @@ hr {
     padding-right: 3rem;
 }
 
-.runinfohr{
+.runinfohr {
     display: none;
 }
-
-
 
 h2 {
     text-align: center;
@@ -116,12 +116,14 @@ h2 {
     font-family: playfairdisplay;
     padding-bottom: 1rem;
 }
+
 .runimages {
     position: relative;
     width: 275px;
     height: 275px;
 }
-.run{
+
+.run {
     border-radius: 34px;
     position: absolute;
     top: 35.33%;
@@ -142,18 +144,19 @@ h2 {
     z-index: 1;
     object-fit: cover;
 }
+
 .runhr {
    display: none;
 }
 
-.kreainfohr{
+.kreainfohr {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     margin-right: 30px;
     margin-left: 30px;
 }
 
-.kreah2{
+.kreah2 {
     padding-top: 2rem;
 }
 
@@ -164,6 +167,7 @@ h2 {
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
 .kreaimages {
     position: relative;
     width: 275px;
@@ -171,7 +175,8 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.smykker{
+
+.smykker {
     border-radius: 34px;
     position: absolute;
     top: -3.67%;
@@ -192,6 +197,7 @@ h2 {
     z-index: 1;
     object-fit: cover;
 }
+
 .strik {
     border-radius: 34px;
     position: absolute;
@@ -203,7 +209,7 @@ h2 {
     object-fit: cover;
 } 
 
-.majmarkedhr{
+.majmarkedhr {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     margin-right: 30px;
@@ -212,11 +218,12 @@ h2 {
 
 .majhr {
    display: none;
-
 }
+
 .majh2 {
     padding-top: 2rem;
 }
+
 .majtext {
     font-size: 1rem;
     text-align: justify;
@@ -225,13 +232,15 @@ h2 {
     padding-right: 3rem;
     padding-bottom: 2rem;
 }
+
 .majmedia {
     position: relative;
     width: 275px;
     height: 275px;
     margin-bottom: 7rem;
 }
-.oel{
+
+.oel {
     border-radius: 34px;
     position: absolute;
     top: 37.33%;
@@ -252,6 +261,7 @@ h2 {
     z-index: 3;
     object-fit: cover;
 }
+
 .torvvideo {
     border-radius: 34px;
     position: absolute;
@@ -291,14 +301,14 @@ h2 {
     width: 2rem;
     height: 2rem;
     margin-right: 1rem;
-
 }
+
 .facebooklogo {
     width: 2rem;
     height: 2rem;
 }
 
-.logoer{
+.logoer {
     display: flex;
     justify-content: center;
 }
@@ -358,12 +368,12 @@ font-family: playfairdisplay;
 header {
 padding: 30px;
 }
+
 hr {
 border-color: #da7897;
-
 }
 
-.textevent1{
+.textevent1 {
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -374,7 +384,7 @@ border-color: #da7897;
     padding-top: 3rem;
 }
 
-.runinfohr{
+.runinfohr {
    border-color: #da7897;
    margin-left: 2rem;
    width: 91%;
@@ -395,12 +405,14 @@ font-size: 1.5rem;
 font-family: playfairdisplay;
 padding-bottom: 1rem;
 }
+
 .runimages {
 position: relative;
 width: 275px;
 height: 275px;
 }
-.run{
+
+.run {
 border-radius: 34px;
 position: absolute;
 top: -74.67%;
@@ -420,21 +432,21 @@ width: 110%;
 height: 140%;
 z-index: 2;
 object-fit: cover;
-
 }
+
 .runhr {
 display: none;
 }
 
-.kreah2{
+.kreah2 {
 padding-top: 10rem;
 padding-left: 37rem;
 }
 
-.kreainfohr{
-    border-color: #da7897;
-    margin-left: 43rem;
-    width: 43%;
+.kreainfohr {
+border-color: #da7897;
+margin-left: 43rem;
+width: 43%;
 }
 
 .kreatext {
@@ -444,7 +456,6 @@ line-height: 1.8rem;
 padding-left: 43rem;
 padding-right: 8rem;
 padding-top: 1.5rem;
-
 }
 
 .kreaimages {
@@ -452,7 +463,8 @@ position: relative;
 width: 275px;
 height: 275px;
 }
-.smykker{
+
+.smykker {
 border-radius: 34px;
 position: absolute;
 top: -174.67%;
@@ -473,6 +485,7 @@ height: 130%;
 z-index: 2;
 object-fit: cover;
 }
+
 .strik {
 border-radius: 34px;
 position: absolute;
@@ -483,20 +496,23 @@ height: 130%;
 z-index: 3;
 object-fit: cover;
 } 
+
 .majhr {
 display: none;
 }
 
 .majmarkedhr{
-    border-color: #da7897;
-    margin-left: 3rem;
-    width: 43%;  
+border-color: #da7897;
+margin-left: 3rem;
+width: 43%;  
 }
+
 .majh2 {
 padding-top: 2rem;
 text-align: justify;
 padding-left: 11rem; 
 }
+
 .majtext {
 font-size: 1.3rem;
 text-align: justify;
@@ -505,14 +521,15 @@ padding-left: 3rem;
 padding-right: 3rem;
 padding-bottom: 2rem;
 width: 50%;
-
 }
+
 .majmedia {
 position: relative;
 width: 275px;
 height: 275px;
 }
-.oel{
+
+.oel {
 border-radius: 34px;
 position: absolute;
 top: -36.67%;
@@ -533,6 +550,7 @@ height: 95%;
 z-index: 2;
 object-fit: cover;
 }
+
 .torvvideo {
 border-radius: 34px;
 position: absolute;
