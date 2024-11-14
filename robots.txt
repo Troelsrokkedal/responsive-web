@@ -1,2 +1,2 @@
 User-agent: *
-Allow: / sitemap.xml
+Allow: /https://responsiveweb.troelsrokkedal.dk/sitemap.xml
