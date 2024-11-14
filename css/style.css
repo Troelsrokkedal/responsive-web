@@ -10,6 +10,8 @@
 }
 
 
+/*MOBIL STARTER*/
+
 @media screen and (max-width: 391px ) {
     * {
         font-family: playfairdisplay;
@@ -169,7 +171,7 @@ h2 {
     left: 86.67%;
     position: absolute;
     border: none;
-    box-shadow: 2px 2px 4px 0px grey;
+    box-shadow: 2px 2px 4px 0px grey; /*skaber lidt skygge, og styger hvilken retning skyggen skal falde*/
     text-align: center;
 }
 
@@ -187,7 +189,7 @@ h2 {
     padding-top: 1rem;
     font-size: 1rem;
     text-align: justify;
-    line-height: 1.8rem;
+    line-height: 1.8rem; /*skaber afstand mellem linjer i tekst så den bliver nemere at læse*/
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -211,7 +213,7 @@ h2 {
 
 .keramik {
     border-radius: 34px;
-    position: absolute;
+    position: absolute; /*Gør det muligt at ligge billederne over hinanden*/
     top: 64%;
     left: 64%;
     width: 40%; /* Får dem til at fylde hele containeren */
@@ -228,7 +230,7 @@ h2 {
     right: 21.33%;
     width: 50%; /* Får dem til at fylde hele containeren */
     height: 70%;
-    z-index: 2;
+    z-index: 2; /*Bestemmer hvilket lag billedet ligger på og derved styger hvad der ligger forst og bagerst (1 = Bagerst)*/
     object-fit: cover;
 }
 
@@ -250,13 +252,14 @@ h2 {
 }
 
 .eventlinkdesktop{
-    display: none;
+    display: none; /*Gemmer knappen fra desktop væk så man ikke ser 2 på mobil*/
 }
 
 
 
 
 /*LOKATION STARTER*/
+
 .lokationh2 {
     padding-top: 8rem;
 }
@@ -320,6 +323,7 @@ h2 {
 
 
 /*REVIEW STARTER*/
+
 .reviewh2 {
     padding-top: 8rem;
 }
@@ -381,6 +385,8 @@ h2 {
 
 
 
+/*FOOTER STARTER*/
+
 .footerbox {
     display: flex;
     align-items: center;
@@ -425,6 +431,8 @@ h2 {
 
 
 
+/*DESKTOP STARTER*/
+
 @media screen and (min-width: 392px) {
     * {
         font-family: playfairdisplay;
@@ -449,6 +457,9 @@ h2 {
     display: none;
 }
 
+
+/*----------------------------------*/
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -456,7 +467,7 @@ h2 {
 }
 
 .menu ul li {
-    padding: 15px;
+    padding: 15px;  /*Disse 3 menu selectors bruger vi de føglende atributter til at designe hvores navbar*/
 }
 
 .menu ul li a {
@@ -464,6 +475,9 @@ h2 {
     text-decoration: none;
     font-size: 1.5rem;
 }
+
+/*----------------------------------*/
+
 
 /* Vis menuen, når checkboxen er markeret */
 .burger-checkbox:checked + .burger + .menu {
@@ -533,7 +547,7 @@ h2 {
 .bolle {
     border-radius: 34px;
     position: absolute;
-    top: 79%;
+    top: 79%; /*top og left taget styger hvor på siden billedet sidder*/
     left: 55.33%;
     width: 70%;
     height: 90%;
