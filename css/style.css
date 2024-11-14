@@ -468,7 +468,7 @@ h2 {
 }
 
 .menu ul li {
-    padding: 15px;  /*Disse 3 menu selectors bruger vi de føglende atributter til at designe hvores navbar*/
+    padding: 15px;  /*Disse 3 menu selectors bruger vi de føglende atributter til at designe vores navbar*/
 }
 
 .menu ul li a {
@@ -548,7 +548,7 @@ h2 {
 .bolle {
     border-radius: 34px;
     position: absolute;
-    top: 79%; /*top og left taget styger hvor på siden billedet sidder*/
+    top: 79%; /*top og left taget styrer hvor på siden billedet sidder*/
     left: 55.33%;
     width: 70%;
     height: 90%;
