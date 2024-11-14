@@ -284,6 +284,7 @@ h2 {
 
 .roundlogo {
     margin-bottom: 2rem;
+    display: none;
 }
 
 .instagramlogo {
