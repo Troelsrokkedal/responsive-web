@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
 }
-@font-face {
+@font-face { /*Vores egen font som bruges på hele siden*/
     font-family: playfairdisplay;
     src: url(/fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
@@ -16,7 +16,7 @@
     * {
         font-family: playfairdisplay;
     }
-    
+
         body {
             background: linear-gradient(180deg, #ffff99, #ffffff) ;
         }
@@ -123,7 +123,7 @@ h2 {
     width: 55%; /* Får dem til at fylde hele containeren */
     height: 90%;
     z-index: 1;
-    object-fit: cover;
+    object-fit: cover; /*Vi har brugt "object-fit cover for at ungå at billdet vil blive udstrukket*/
 }
 
 .bolle {
